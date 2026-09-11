@@ -10424,7 +10424,9 @@ function aboutYou(state, catalog, facets, draw, remember, nearby) {
     element("span", void 0, "Programs you are closest to finishing"),
     infoMark(
       "Programs you are closest to finishing",
-      "Counted against each program's requirement table with the courses you have passed: the credits its table still needs, and the terms that would take at your load. Prerequisites of the courses still needed, placements and graduation rules are not counted, so the true distance can be longer. Five of each kind, nearest first, among the programs your record has made a start on."
+      // Short, and still honest about what the count leaves out (the sponsor
+      // found the longer version awkward).
+      "Ranked by the credits each program still needs after the courses you have passed. Prerequisites, placements and graduation rules are not counted, so the real distance can be longer."
     ).element
   );
   closest.append(closestSummary);
