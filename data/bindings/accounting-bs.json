@@ -1,0 +1,134 @@
+{
+  "bindings": [
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Humanities Distribution",
+      "requirement": "r.1.6",
+      "slot": "g2.3"
+    },
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Physical Science",
+      "requirement": "r.1.7",
+      "slot": "g2.4"
+    },
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Biology",
+      "requirement": "r.1.4",
+      "slot": "g3.4"
+    },
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Social Science",
+      "requirement": "r.1.8",
+      "slot": "g4.3"
+    },
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Personal, Professional, and Civic Growth",
+      "requirement": "r.1.9",
+      "slot": "g4.4"
+    }
+  ],
+  "blockTotals": [],
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "grid_requirement_binding",
+    "adapter_version": "1.0.0",
+    "as_of": "2026-09-06",
+    "notes": [
+      "Derived from credits and counts, not from label similarity. A slot the arithmetic does not settle is reported, not guessed."
+    ],
+    "source": "grid_requirement_binding"
+  },
+  "programId": "accounting-bs",
+  "schema_version": 1,
+  "summary": {
+    "blocksNotAddingUp": 0,
+    "bound": 5,
+    "slots": 14,
+    "unboundRequirements": 4,
+    "unboundSlots": 9
+  },
+  "unbound": {
+    "requirements": [
+      {
+        "credits": 3.0,
+        "label": "Complete one of the following:",
+        "requirement": "r.1.3",
+        "type": "OneOf"
+      },
+      {
+        "credits": 3.0,
+        "label": "Fine Arts Distribution",
+        "requirement": "r.1.5",
+        "type": "Slot"
+      },
+      {
+        "credits": 12.0,
+        "label": "Complete four of the following advanced accounting courses: 4",
+        "requirement": "r.2.24",
+        "type": "Slot"
+      },
+      {
+        "credits": 10.0,
+        "label": "Complete 10 credits of any courses 1000-level or higher",
+        "requirement": "r.2.25",
+        "type": "CreditsFrom"
+      }
+    ],
+    "slots": [
+      {
+        "credits": 3.0,
+        "label": "American Institutions",
+        "slot": "g1.0"
+      },
+      {
+        "credits": 3.0,
+        "label": "FINE ART",
+        "slot": "g1.2"
+      },
+      {
+        "credits": 2.0,
+        "label": "General Elective",
+        "slot": "g1.3"
+      },
+      {
+        "credits": 3.0,
+        "label": "General Elective",
+        "slot": "g4.5"
+      },
+      {
+        "credits": 3.0,
+        "label": "Accounting Elective",
+        "slot": "g7.0"
+      },
+      {
+        "credits": 3.0,
+        "label": "General Elective",
+        "slot": "g7.5"
+      },
+      {
+        "credits": 3.0,
+        "label": "Accounting Elective",
+        "slot": "g8.0"
+      },
+      {
+        "credits": 3.0,
+        "label": "Accounting Elective",
+        "slot": "g8.1"
+      },
+      {
+        "credits": 5.0,
+        "label": "General Elective (Any course numbered 1000 or higher)",
+        "slot": "g8.3"
+      }
+    ]
+  }
+}

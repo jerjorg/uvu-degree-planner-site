@@ -1,0 +1,77 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_courseleaf",
+    "adapter_version": "1.0.0",
+    "source": "catalog_plan_of_study_grid"
+  },
+  "meta": {
+    "degree": "",
+    "name": "Accounting, Undergraduate Certificate",
+    "title": "Accounting, Undergraduate Certificate",
+    "totalCredits": 16.0
+  },
+  "programId": "accounting-undergraduate-certificate",
+  "schema_version": 1,
+  "seasons": [
+    "F",
+    "P"
+  ],
+  "source": "catalog_plan_of_study_grid",
+  "terms": [
+    {
+      "index": 1,
+      "items": [
+        {
+          "code": "ACC 2110",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Principles of Accounting I"
+        },
+        {
+          "code": "ACC 2600",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Business Law and Ethics"
+        },
+        {
+          "code": "MGMT 2400",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Data Analytics for Business"
+        }
+      ],
+      "label": "Semester 1",
+      "printedCredits": 9.0,
+      "year": "First Year"
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "code": "ACC 2115",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Introduction to the Accounting Profession"
+        },
+        {
+          "code": "ACC 2120",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Principles of Accounting II"
+        },
+        {
+          "code": "ACC 2250",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "QuickBooks and Small Business Accounting"
+        }
+      ],
+      "label": "Semester 2",
+      "printedCredits": 7.0,
+      "year": "First Year"
+    }
+  ],
+  "variant": 0,
+  "variants": 2
+}

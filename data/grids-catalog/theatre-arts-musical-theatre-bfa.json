@@ -1,0 +1,425 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_courseleaf",
+    "adapter_version": "1.0.0",
+    "source": "catalog_plan_of_study_grid"
+  },
+  "meta": {
+    "degree": "B.F.A.",
+    "name": "Theatre Arts - Musical Theatre Emphasis",
+    "title": "Theatre Arts - Musical Theatre Emphasis, B.F.A.",
+    "totalCredits": 126.0
+  },
+  "programId": "theatre-arts-musical-theatre-bfa",
+  "schema_version": 1,
+  "seasons": [
+    "F",
+    "P"
+  ],
+  "source": "catalog_plan_of_study_grid",
+  "terms": [
+    {
+      "index": 1,
+      "items": [
+        {
+          "code": "DANC 1100R",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Beginning Ballet"
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Introduction to Academic Writing or Foundations of Academic Writing",
+          "options": [
+            "ENGL 1010",
+            "ENGL 1005"
+          ]
+        },
+        {
+          "code": "MAT 1030",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Quantitative Reasoning"
+        },
+        {
+          "code": "THEA 1033",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Acting I"
+        },
+        {
+          "code": "THEA 1113",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Voice and Speech I"
+        },
+        {
+          "code": "THEA 1590R",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Theatrical Production Practicum"
+        },
+        {
+          "code": "THEA 2156",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Group Voice for Theatre"
+        }
+      ],
+      "label": "Semester 1",
+      "printedCredits": 17.0,
+      "year": "First Year"
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "code": "DANC 1500R",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Beginning Jazz Dance"
+        },
+        {
+          "code": "ENGL 2010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Intermediate Academic Writing"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Physical Science Distribution",
+          "slot": "@PHYSICAL_SCIENCE_DISTRIBUTION"
+        },
+        {
+          "code": "THEA 1013",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Introduction to Theatre"
+        },
+        {
+          "code": "THEA 1513",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Intro to Technical Theatre"
+        },
+        {
+          "code": "THEA 1514",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Intro to Technical Theatre Lab"
+        },
+        {
+          "code": "THEA 2840R",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Singing Technique for Actors I - BFA"
+        }
+      ],
+      "label": "Semester 2",
+      "printedCredits": 14.0,
+      "year": "First Year"
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "American Institutions Distribution",
+          "slot": "@AMERICAN_INSTITUTIONS_DISTRIBUTION"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Biology Distribution",
+          "slot": "@BIOLOGY_DISTRIBUTION"
+        },
+        {
+          "credits": 1.0,
+          "kind": "slot",
+          "label": "DANC Elective Course",
+          "slot": "@DANC_ELECTIVE_COURSE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Humanities Distribution",
+          "slot": "@HUMANITIES_DISTRIBUTION"
+        },
+        {
+          "code": "THEA 1223",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Makeup I"
+        },
+        {
+          "code": "THEA 2033",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Acting II"
+        },
+        {
+          "code": "THEA 2840R",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Singing Technique for Actors I - BFA"
+        }
+      ],
+      "label": "Semester 3",
+      "printedCredits": 17.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Personal, Professional, & Civic Growth Distribution",
+          "slot": "@PERSONAL_PROFESSIONAL_CIVIC_GROWTH_DISTRIBUTION"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Social/Behavioral Science Distribution",
+          "slot": "@SOCIAL_BEHAVIORAL_SCIENCE_DISTRIBUTION"
+        },
+        {
+          "code": "THEA 1713",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Script and Text Analysis"
+        },
+        {
+          "code": "THEA 2131",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Movement for the Actor I"
+        },
+        {
+          "code": "THEA 2840R",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Singing Technique for Actors I - BFA"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "THEA Elective course",
+          "slot": "@THEA_ELECTIVE_COURSE"
+        }
+      ],
+      "label": "Semester 4",
+      "printedCredits": 16.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 5,
+      "items": [
+        {
+          "code": "THEA 3115",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Improvisation I - BFA"
+        },
+        {
+          "code": "THEA 3131",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Movement for the Actor II-BFA"
+        },
+        {
+          "code": "THEA 3151",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Acting for Musical Theatre I"
+        },
+        {
+          "code": "THEA 3154",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Dance for Musical Theatre I"
+        },
+        {
+          "code": "THEA 4150R",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Musical Theatre Workshop - BFA"
+        },
+        {
+          "code": "THEA 4840R",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Singing Techniques for Actors II-BFA"
+        }
+      ],
+      "label": "Semester 5",
+      "printedCredits": 15.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 6,
+      "items": [
+        {
+          "code": "THEA 3033",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Acting III"
+        },
+        {
+          "code": "THEA 3122",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Voice and Speech II"
+        },
+        {
+          "code": "THEA 3152",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Acting for Musical Theatre II - BFA"
+        },
+        {
+          "credits": 2.0,
+          "kind": "choice",
+          "label": "Performance Practicum for Stage and Screen or Musical Performance Practicum",
+          "options": [
+            "THEA 3190R",
+            "THEA 4190R"
+          ]
+        },
+        {
+          "code": "THEA 3611",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Directing Actors for Stage and Screen"
+        },
+        {
+          "code": "THEA 4840R",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Singing Techniques for Actors II-BFA"
+        },
+        {
+          "credits": 1.0,
+          "kind": "slot",
+          "label": "Dance Elective",
+          "slot": "@DANCE_ELECTIVE"
+        }
+      ],
+      "label": "Semester 6",
+      "printedCredits": 16.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 7,
+      "items": [
+        {
+          "credits": 2.0,
+          "kind": "choice",
+          "label": "Performance Practicum for Stage and Screen or Musical Performance Practicum",
+          "options": [
+            "THEA 3190R",
+            "THEA 4190R"
+          ]
+        },
+        {
+          "code": "THEA 3721",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Theatre History and Literature I"
+        },
+        {
+          "code": "THEA 4117",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Auditioning and the Business - BFA"
+        },
+        {
+          "code": "THEA 4150R",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Musical Theatre Workshop - BFA"
+        },
+        {
+          "code": "THEA 4810R",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Theatre Internship"
+        },
+        {
+          "code": "THEA 4840R",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Singing Techniques for Actors II-BFA"
+        },
+        {
+          "credits": 1.0,
+          "kind": "slot",
+          "label": "DANC Elective Course",
+          "slot": "@DANC_ELECTIVE_COURSE"
+        },
+        {
+          "credits": 2.0,
+          "kind": "slot",
+          "label": "THEA Elective Course",
+          "slot": "@THEA_ELECTIVE_COURSE"
+        }
+      ],
+      "label": "Semester 7",
+      "printedCredits": 16.0,
+      "year": "Fourth Year"
+    },
+    {
+      "index": 8,
+      "items": [
+        {
+          "code": "THEA 3155",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Dance for Musical Theatre II - BFA"
+        },
+        {
+          "code": "THEA 3722",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Theatre History and Literature II"
+        },
+        {
+          "code": "THEA 4115",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Acting Styles-BFA"
+        },
+        {
+          "code": "THEA 4119",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Senior Showcase and Career Management - BFA"
+        },
+        {
+          "credits": 2.0,
+          "kind": "choice",
+          "label": "Musical Performance Practicum or Performance Practicum for Stage and Screen",
+          "options": [
+            "THEA 4190R",
+            "THEA 3190R"
+          ]
+        },
+        {
+          "code": "THEA 4840R",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Singing Techniques for Actors II-BFA"
+        }
+      ],
+      "label": "Semester 8",
+      "printedCredits": 15.0,
+      "year": "Fourth Year"
+    }
+  ],
+  "variant": 0,
+  "variants": 1
+}

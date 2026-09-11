@@ -1,0 +1,290 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_courseleaf",
+    "adapter_version": "1.0.0",
+    "source": "catalog_plan_of_study_grid"
+  },
+  "meta": {
+    "degree": "A.S.N.",
+    "name": "Nursing",
+    "title": "Nursing, A.S.N.",
+    "totalCredits": 71.0
+  },
+  "programId": "nursing-asn",
+  "schema_version": 1,
+  "seasons": [
+    "F",
+    "P"
+  ],
+  "source": "catalog_plan_of_study_grid",
+  "terms": [
+    {
+      "index": 1,
+      "items": [
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Quantitative Literacy",
+          "slot": "@QUANTITATIVE_LITERACY"
+        },
+        {
+          "code": "ENGL 1010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Introduction to Academic Writing"
+        },
+        {
+          "code": "PSY 1100",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Human Development Life Span"
+        },
+        {
+          "code": "NUTR 1020",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Foundations of Human Nutrition"
+        }
+      ],
+      "label": "Semester 1",
+      "notes": [
+        "Students bringing in an LPN will have a different study plan for the first two semesters. Please see an advisor."
+      ],
+      "printedCredits": 12.0,
+      "year": "First Year"
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "code": "BIOL 1610",
+          "credits": 4.0,
+          "kind": "course",
+          "title": "College Biology I"
+        },
+        {
+          "code": "CHEM 1110",
+          "credits": 4.0,
+          "kind": "course",
+          "title": "Elementary Chemistry for the Health Sciences"
+        }
+      ],
+      "label": "Semester 2",
+      "printedCredits": 8.0,
+      "year": "First Year"
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "code": "ZOOL 2320",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Human Anatomy"
+        },
+        {
+          "code": "ZOOL 2325",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Human Anatomy Laboratory"
+        },
+        {
+          "code": "PHIL 2050",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Ethics and Values"
+        }
+      ],
+      "label": "Semester 3",
+      "printedCredits": 7.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "code": "ZOOL 2420",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Human Physiology"
+        },
+        {
+          "code": "ZOOL 2425",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Human Physiology Laboratory"
+        },
+        {
+          "code": "MICR 2060",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Microbiology for Health Professions"
+        },
+        {
+          "code": "MICR 2065",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Microbiology for Health Professions Laboratory"
+        }
+      ],
+      "label": "Semester 4",
+      "printedCredits": 8.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 5,
+      "items": [
+        {
+          "code": "NURS 2300",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Nursing Health Assessment"
+        },
+        {
+          "code": "NURS 2305",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Nursing Health Assessment Laboratory"
+        },
+        {
+          "code": "NURS 2310",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Nursing Pharmacology"
+        },
+        {
+          "code": "NURS 2320",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Fundamentals of Nursing Care"
+        },
+        {
+          "code": "NURS 2325",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Nursing Practice Simulation and Skills Lab I"
+        }
+      ],
+      "label": "Semester 5",
+      "printedCredits": 10.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 6,
+      "items": [
+        {
+          "code": "NURS 2410",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Nursing Care of Adults with Common Health Needs"
+        },
+        {
+          "code": "NURS 2415",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Nursing Care of Adults with Common Health Needs Clinical"
+        },
+        {
+          "code": "NURS 2420",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Nursing Care of the Aging Population"
+        },
+        {
+          "code": "NURS 2430",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Mental Health Nursing"
+        },
+        {
+          "code": "NURS 2435",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Mental Health Nursing Clinical"
+        },
+        {
+          "code": "NURS 2445",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Nursing Practice Simulation and Skills Lab II"
+        }
+      ],
+      "label": "Semester 6",
+      "printedCredits": 11.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 7,
+      "items": [
+        {
+          "code": "NURS 3330",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Nursing Care of Individuals with Complex Health Needs"
+        },
+        {
+          "code": "NURS 3335",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Nursing Care of Individuals with Complex Health Needs Clinical"
+        },
+        {
+          "code": "NURS 3340",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Nursing Care of Women Children and Developing Families"
+        },
+        {
+          "code": "NURS 3345",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Nursing Care of Women Children and Developing Families Clinical"
+        },
+        {
+          "code": "NURS 3355",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Nursing Practice Simulation and Skills Lab III"
+        }
+      ],
+      "label": "Semester 7",
+      "printedCredits": 9.0,
+      "year": "Fourth Year"
+    },
+    {
+      "index": 8,
+      "items": [
+        {
+          "code": "NURS 3400",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Patient Care Coordination and Management"
+        },
+        {
+          "code": "NURS 3405",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Patient Care Coordination and Management Preceptorship"
+        },
+        {
+          "code": "NURS 3440",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Pharmacology for the Practicing Nurse"
+        },
+        {
+          "code": "NURS 3445",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Nursing Practice Simulation and Skills Lab IV"
+        }
+      ],
+      "label": "Semester 8",
+      "printedCredits": 6.0,
+      "year": "Fourth Year"
+    }
+  ],
+  "variant": 0,
+  "variants": 2
+}

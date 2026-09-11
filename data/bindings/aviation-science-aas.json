@@ -1,0 +1,63 @@
+{
+  "bindings": [
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Social/Behavioral Science",
+      "requirement": "r.0.2",
+      "slot": "g1.3"
+    },
+    {
+      "basis": "3 slots of 3 credits fill 9",
+      "confidence": "high",
+      "label": "Complete three courses with no more than one from any of the following GE distributions:",
+      "requirement": "r.0.3",
+      "slot": "g1.4"
+    },
+    {
+      "basis": "3 slots of 3 credits fill 9",
+      "confidence": "high",
+      "label": "Complete three courses with no more than one from any of the following GE distributions:",
+      "requirement": "r.0.3",
+      "slot": "g2.3"
+    },
+    {
+      "basis": "3 slots of 3 credits fill 9",
+      "confidence": "high",
+      "label": "Complete three courses with no more than one from any of the following GE distributions:",
+      "requirement": "r.0.3",
+      "slot": "g2.4"
+    },
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Elective Credits",
+      "requirement": "r.1.11",
+      "slot": "g4.2"
+    }
+  ],
+  "blockTotals": [],
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "grid_requirement_binding",
+    "adapter_version": "1.0.0",
+    "as_of": "2026-09-04",
+    "notes": [
+      "Derived from credits and counts, not from label similarity. A slot the arithmetic does not settle is reported, not guessed."
+    ],
+    "source": "grid_requirement_binding"
+  },
+  "programId": "aviation-science-aas",
+  "schema_version": 1,
+  "summary": {
+    "blocksNotAddingUp": 0,
+    "bound": 5,
+    "slots": 5,
+    "unboundRequirements": 0,
+    "unboundSlots": 0
+  },
+  "unbound": {
+    "requirements": [],
+    "slots": []
+  }
+}

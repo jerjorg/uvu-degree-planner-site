@@ -1,0 +1,354 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_requirements",
+    "adapter_version": "1.0.0"
+  },
+  "programId": "computational-data-science-bs",
+  "requirements": {
+    "of": [
+      {
+        "credits": 31.0,
+        "label": "General Education Requirements",
+        "of": [
+          {
+            "of": [
+              {
+                "code": "ENGL 1010",
+                "credits": 3.0,
+                "title": "Introduction to Academic Writing",
+                "type": "Course"
+              },
+              {
+                "code": "ENGL 1005",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "ENGL 2010",
+            "credits": 3.0,
+            "title": "Intermediate Academic Writing",
+            "type": "Course"
+          },
+          {
+            "code": "MATH 1210",
+            "credits": 4.0,
+            "title": "Calculus I *",
+            "type": "Course"
+          },
+          {
+            "credits": 3.0,
+            "label": "American Institutions",
+            "of": [
+              {
+                "code": "HIST 1700",
+                "title": "American History (3)",
+                "type": "Course"
+              },
+              {
+                "code": "HIST 1740",
+                "title": "US Economic History (3)",
+                "type": "Course"
+              },
+              {
+                "combined": true,
+                "label": "US History to 1877 and US History since 1877 (6)",
+                "of": [
+                  {
+                    "code": "HIST 2700",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "HIST 2710",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "code": "POLS 1000",
+                "title": "American Heritage (3)",
+                "type": "Course"
+              },
+              {
+                "code": "POLS 1100",
+                "title": "American National Government (3)",
+                "type": "Course"
+              }
+            ],
+            "slot": "@AMERICAN_INSTITUTIONS",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Art",
+            "slot": "@ART",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Humanities",
+            "slot": "@HUMANITIES",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Life Sciences",
+            "slot": "@LIFE_SCIENCES",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Physical Sciences",
+            "slot": "@PHYSICAL_SCIENCES",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Social & Behavioral Sciences",
+            "slot": "@SOCIAL_BEHAVIORAL_SCIENCES",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Personal, Professional, and Civic Growth",
+            "slot": "@PERSONAL_PROFESSIONAL_AND_CIVIC_GROWTH",
+            "type": "Slot"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 89.0,
+        "label": "Discipline Requirements",
+        "of": [
+          {
+            "credits": 6.0,
+            "label": "Complete one of the following:",
+            "minGrade": "C-",
+            "of": [
+              {
+                "combined": true,
+                "label": "Fundamentals of Programming and Object Oriented Programming (6)",
+                "of": [
+                  {
+                    "code": "CS 1400",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 1410",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "code": "CS 1420",
+                "minGrade": "C-",
+                "title": "Accelerated Introduction to Programming (undefined) (and an additional 3 credit CS elective not already completed) 1",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "CS 2420",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Introduction to Algorithms and Data Structures",
+            "type": "Course"
+          },
+          {
+            "code": "CS 2300",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Discrete Mathematical Structures I",
+            "type": "Course"
+          },
+          {
+            "code": "CS 2450",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Software Engineering",
+            "type": "Course"
+          },
+          {
+            "code": "CS 2700",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Causal Inference",
+            "type": "Course"
+          },
+          {
+            "code": "CS 2900",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Data Privacy and Security",
+            "type": "Course"
+          },
+          {
+            "code": "CS 3520",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Database Theory",
+            "type": "Course"
+          },
+          {
+            "code": "CS 3270",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Python Software Development",
+            "type": "Course"
+          },
+          {
+            "code": "CS 3310",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Analysis of Algorithms",
+            "type": "Course"
+          },
+          {
+            "code": "CS 3530",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Data Management For Data Sciences",
+            "type": "Course"
+          },
+          {
+            "code": "CS 3800",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Data Science Through Statistical Reasoning",
+            "type": "Course"
+          },
+          {
+            "code": "CS 3820",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Visualization Analytics for Data Science",
+            "type": "Course"
+          },
+          {
+            "code": "CS 3050G",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Global Social and Ethical Issues in Computing",
+            "type": "Course"
+          },
+          {
+            "code": "CS 4700",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Machine Learning",
+            "type": "Course"
+          },
+          {
+            "code": "CS 4710",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Deep Learning",
+            "type": "Course"
+          },
+          {
+            "code": "CS 4800",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Data Science Capstone",
+            "type": "Course"
+          },
+          {
+            "code": "MATH 1220",
+            "credits": 4.0,
+            "minGrade": "C-",
+            "title": "Calculus II",
+            "type": "Course"
+          },
+          {
+            "code": "MATH 2210",
+            "credits": 4.0,
+            "minGrade": "C-",
+            "title": "Calculus III",
+            "type": "Course"
+          },
+          {
+            "code": "MATH 2270",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Linear Algebra",
+            "type": "Course"
+          },
+          {
+            "code": "MATH 3640",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Introduction to Optimization",
+            "type": "Course"
+          },
+          {
+            "of": [
+              {
+                "code": "ECE 3710",
+                "credits": 3.0,
+                "minGrade": "C-",
+                "title": "Applied Probability and Statistics for Engineers and Scientists",
+                "type": "Course"
+              },
+              {
+                "code": "STAT 2050",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "credits": 18.0,
+            "label": "Complete 18 credits from any of the following (A minimum grade of C- is required):",
+            "minGrade": "C-",
+            "n": 18,
+            "of": [
+              {
+                "approvalRequired": "department head",
+                "label": "4 courses from another discipline, at least 6 hours of which must be 3000 level or higher. Requires department head approval.",
+                "minCreditsAtLevel": {
+                  "credits": 6,
+                  "level": 3000
+                },
+                "minGrade": "C-",
+                "n": 4,
+                "type": "NOf"
+              },
+              {
+                "excludeAlreadyRequired": true,
+                "label": "Any CS 3000 or 4000 level course not already required",
+                "levels": [
+                  3000,
+                  4000
+                ],
+                "minGrade": "C-",
+                "minLevel": 3000,
+                "subject": "CS",
+                "type": "Pool"
+              }
+            ],
+            "type": "CreditsFrom"
+          },
+          {
+            "credits": 3.0,
+            "label": "Senior Elective is any of MGMT 4840, STAT 4000, STAT 4100, STAT 4200, STAT 4300, STAT 4400, STAT 4500, STAT 4600, STAT 4710, or STAT 4720, or supervised student research, or an internship.",
+            "minGrade": "C-",
+            "slot": "@SENIOR_ELECTIVE_IS_ANY_OF_MGMT_4840_STAT_4000_STAT_4100_STAT_4200_STAT_4300_STAT_4400_STAT_4500_STAT_4600_STAT_4710_OR_STAT_4720_OR_SUPERVISED_STUDENT_RESEARCH_OR_AN_INTERNSHIP",
+            "type": "Slot"
+          }
+        ],
+        "type": "AllOf"
+      }
+    ],
+    "type": "AllOf"
+  },
+  "schema_version": 1,
+  "source": "catalog_requirements_table",
+  "title": "Computational Data Science, B.S.",
+  "totalCredits": 120.0
+}

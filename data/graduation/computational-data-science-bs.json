@@ -1,0 +1,111 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_graduation",
+    "adapter_version": "1.0.0",
+    "source": "catalog_program_page"
+  },
+  "programId": "computational-data-science-bs",
+  "rules": [
+    {
+      "credits": 120,
+      "id": "min_total_credits",
+      "kind": "min_total_credits",
+      "text": "Completion of a minimum of 120 semester credits, with a minimum of 40 upper-division credits."
+    },
+    {
+      "credits": 40,
+      "id": "min_credits_at_level",
+      "kind": "min_credits_at_level",
+      "level": 3000,
+      "text": "Completion of a minimum of 120 semester credits, with a minimum of 40 upper-division credits."
+    },
+    {
+      "gpa": 2.0,
+      "id": "min_gpa",
+      "kind": "min_gpa",
+      "scope": "overall",
+      "text": "Overall grade point average of 2.0 or above."
+    },
+    {
+      "gpa": 2.5,
+      "id": "min_gpa_2",
+      "kind": "min_gpa",
+      "scope": "discipline requirements and the General Education requirements that are marked with an *",
+      "text": "Must have a minimum grade of C- with a combined GPA of 2.5 or higher in all discipline requirements and the General Education requirements that are marked with an *."
+    },
+    {
+      "grade": "C-",
+      "id": "min_grade",
+      "kind": "min_grade",
+      "scope": "discipline requirements and the General Education requirements that are marked with an *",
+      "text": "Must have a minimum grade of C- with a combined GPA of 2.5 or higher in all discipline requirements and the General Education requirements that are marked with an *."
+    },
+    {
+      "credits": 30,
+      "id": "min_credits_at_institution",
+      "kind": "min_credits_at_institution",
+      "text": "Residency hours - - minimum of 30 credit hours through course attendance at UVU. 10 of these hours must be within the last 45 hours earned."
+    },
+    {
+      "credits": 10,
+      "id": "min_credits_at_institution_within_last",
+      "kind": "min_credits_at_institution_within_last",
+      "ofLastHours": 45,
+      "text": "Residency hours - - minimum of 30 credit hours through course attendance at UVU. 10 of these hours must be within the last 45 hours earned."
+    },
+    {
+      "category": "approved Computational Data Science (CDS) courses",
+      "credits": 12,
+      "id": "min_credits_at_institution_in_category",
+      "kind": "min_credits_at_institution_in_category",
+      "text": "At least 12 of the credit hours earned in residence must be in approved Computational Data Science (CDS) courses."
+    },
+    {
+      "id": "policy",
+      "kind": "policy",
+      "text": "All transfer credit must be approved in writing by UVU."
+    },
+    {
+      "credits": 80,
+      "from": "two_year",
+      "id": "max_transfer_credits",
+      "kind": "max_transfer_credits",
+      "text": "No more than 80 semester hours and no more than 20 hours in CDS-type courses of transfer credit from a two-year college."
+    },
+    {
+      "category": "CDS-type courses",
+      "credits": 20,
+      "from": "two_year",
+      "id": "max_transfer_credits_2",
+      "kind": "max_transfer_credits",
+      "text": "No more than 80 semester hours and no more than 20 hours in CDS-type courses of transfer credit from a two-year college."
+    },
+    {
+      "credits": 30,
+      "id": "max_credits_by_mode",
+      "kind": "max_credits_by_mode",
+      "mode": "independent_study_or_extension",
+      "text": "No more than 30 semester hours may be earned through independent study and/or extension classes."
+    },
+    {
+      "attribute": "global_intercultural",
+      "count": 1,
+      "examples": [
+        "CS 3050G"
+      ],
+      "id": "min_courses_with_attribute",
+      "kind": "min_courses_with_attribute",
+      "text": "Successful completion of at least one Global/Intercultural course."
+    },
+    {
+      "attribute": "writing_enriched",
+      "count": 2,
+      "id": "min_courses_with_attribute_2",
+      "kind": "min_courses_with_attribute",
+      "text": "Successful completion of at least two Writing Enriched courses."
+    }
+  ],
+  "schema_version": 1,
+  "unparsed": []
+}

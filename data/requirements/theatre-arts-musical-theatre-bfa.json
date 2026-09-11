@@ -1,0 +1,421 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_requirements",
+    "adapter_version": "1.0.0"
+  },
+  "programId": "theatre-arts-musical-theatre-bfa",
+  "requirements": {
+    "of": [
+      {
+        "credits": 60.0,
+        "label": "Theatre Arts Requirements",
+        "of": [
+          {
+            "credits": 60.0,
+            "label": "Complete the requirements",
+            "type": "AllOf"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 66.0,
+        "label": "Emphasis Requirements",
+        "of": [
+          {
+            "code": "DANC 1100R",
+            "credits": 1.0,
+            "title": "Beginning Ballet",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 1500R",
+            "credits": 1.0,
+            "title": "Beginning Jazz Dance",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 1113",
+            "credits": 3.0,
+            "title": "Voice and Speech I",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 2131",
+            "credits": 3.0,
+            "title": "Movement for the Actor I",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 2033",
+            "credits": 3.0,
+            "title": "Acting II",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 2156",
+            "credits": 3.0,
+            "title": "Group Voice for Theatre",
+            "type": "Course"
+          },
+          {
+            "of": [
+              {
+                "code": "THEA 2840R",
+                "credits": 3.0,
+                "title": "Singing Technique for Actors I - BFA (1 credit, must be repeated for 3 credits)",
+                "type": "Course"
+              },
+              {
+                "code": "THEA 1840R",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "THEA 3033",
+            "credits": 3.0,
+            "title": "Acting III",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 3115",
+            "credits": 3.0,
+            "title": "Improvisation I - BFA",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 3122",
+            "credits": 3.0,
+            "title": "Voice and Speech II",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 3131",
+            "credits": 3.0,
+            "title": "Movement for the Actor II-BFA",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 3151",
+            "credits": 3.0,
+            "title": "Acting for Musical Theatre I",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 3152",
+            "credits": 3.0,
+            "title": "Acting for Musical Theatre II - BFA",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 3154",
+            "credits": 3.0,
+            "title": "Dance for Musical Theatre I",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 3155",
+            "credits": 3.0,
+            "title": "Dance for Musical Theatre II - BFA",
+            "type": "Course"
+          },
+          {
+            "of": [
+              {
+                "code": "THEA 3190R",
+                "credits": 6.0,
+                "title": "Performance Practicum for Stage and Screen (At least two of these credits must be THEA 4190R. Most students complete 319R or 419R three times, 2 credits each, for a total of 6 credits)",
+                "type": "Course"
+              },
+              {
+                "code": "THEA 4190R",
+                "type": "Course"
+              },
+              {
+                "code": "THEA 3150R",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "THEA 4115",
+            "credits": 3.0,
+            "title": "Acting Styles-BFA",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 4150R",
+            "credits": 4.0,
+            "title": "Musical Theatre Workshop - BFA",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 4117",
+            "credits": 3.0,
+            "title": "Auditioning and the Business - BFA",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 4119",
+            "credits": 3.0,
+            "title": "Senior Showcase and Career Management - BFA",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 4840R",
+            "credits": 4.0,
+            "title": "Singing Techniques for Actors II-BFA (1 credit, must be repeated for 4 credits)",
+            "type": "Course"
+          },
+          {
+            "credits": 2.0,
+            "label": "2 additional credits of DANC courses",
+            "n": 2,
+            "type": "CreditsFrom"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 27.0,
+        "label": "General Education Requirements",
+        "of": [
+          {
+            "of": [
+              {
+                "code": "ENGL 1010",
+                "credits": 3.0,
+                "title": "Introduction to Academic Writing",
+                "type": "Course"
+              },
+              {
+                "code": "ENGL 1005",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "ENGL 2010",
+            "credits": 3.0,
+            "title": "Intermediate Academic Writing",
+            "type": "Course"
+          },
+          {
+            "credits": 3.0,
+            "label": "Complete one of the following:",
+            "of": [
+              {
+                "code": "MAT 1030",
+                "title": "Quantitative Reasoning (3)",
+                "type": "Course"
+              },
+              {
+                "code": "MAT 1035",
+                "title": "Quantitative Reasoning with Integrated Algebra (6)",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "credits": 3.0,
+            "label": "Complete one of the following:",
+            "of": [
+              {
+                "code": "HIST 1700",
+                "title": "American History (3)",
+                "type": "Course"
+              },
+              {
+                "code": "HIST 1740",
+                "title": "US Economic History (3)",
+                "type": "Course"
+              },
+              {
+                "combined": true,
+                "label": "US History to 1877 and US History since 1877 (6)",
+                "of": [
+                  {
+                    "code": "HIST 2700",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "HIST 2710",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "code": "POLS 1000",
+                "title": "American Heritage (3)",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "label": "Complete the following:",
+            "type": "AllOf"
+          },
+          {
+            "credits": 3.0,
+            "label": "Biology Distribution",
+            "slot": "@BIOLOGY_DISTRIBUTION",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Physical Science Distribution Students in the Sound track of the BFA Theatre Design & Production Emphasis are strongly recommended to take PHYS 1700 Physics of Sound",
+            "slot": "@PHYSICAL_SCIENCE_DISTRIBUTION_STUDENTS_IN_THE_SOUND_TRACK_OF_THE_BFA_THEATRE_DESIGN_PRODUCTION_EMPHASIS_ARE_STRONGLY_RECOMMENDED_TO_TAKE_PHYS_1700_PHYSICS_OF_SOUND",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Humanities Distribution",
+            "slot": "@HUMANITIES_DISTRIBUTION",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Personal, Professional, & Civic Growth Distribution",
+            "slot": "@PERSONAL_PROFESSIONAL_CIVIC_GROWTH_DISTRIBUTION",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Social/Behavioral Science Distribution",
+            "slot": "@SOCIAL_BEHAVIORAL_SCIENCE_DISTRIBUTION",
+            "type": "Slot"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 27.0,
+        "label": "Discipline Core Requirements",
+        "of": [
+          {
+            "code": "THEA 1013",
+            "credits": 3.0,
+            "title": "Introduction to Theatre (Majors only section)",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 1033",
+            "credits": 3.0,
+            "title": "Acting I",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 1223",
+            "credits": 3.0,
+            "title": "Makeup I",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 1513",
+            "credits": 2.0,
+            "title": "Intro to Technical Theatre",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 1514",
+            "credits": 1.0,
+            "title": "Intro to Technical Theatre Lab",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 1590R",
+            "credits": 1.0,
+            "title": "Theatrical Production Practicum",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 1713",
+            "credits": 3.0,
+            "title": "Script and Text Analysis",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 3611",
+            "credits": 3.0,
+            "title": "Directing Actors for Stage and Screen",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 3721",
+            "credits": 3.0,
+            "title": "Theatre History and Literature I",
+            "type": "Course"
+          },
+          {
+            "code": "THEA 3722",
+            "credits": 3.0,
+            "title": "Theatre History and Literature II",
+            "type": "Course"
+          },
+          {
+            "of": [
+              {
+                "code": "THEA 4810R",
+                "credits": 2.0,
+                "title": "Theatre Internship (1-8)",
+                "type": "Course"
+              },
+              {
+                "code": "THEA 4996",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 4.0,
+        "label": "Performing Arts Elective Requirement",
+        "of": [
+          {
+            "credits": 4.0,
+            "label": "Complete 4 credits of any THEA, MUSC, DANC, or ART course 1000 level or higher",
+            "n": 4,
+            "type": "CreditsFrom"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 2.0,
+        "label": "Free Elective Requirement",
+        "of": [
+          {
+            "credits": 2.0,
+            "label": "Successful completion of at least two free elective credits, 1000 or above, required for graduation",
+            "of": [
+              {
+                "group": true,
+                "label": "Successful completion of at least two Writing Enriched courses is required for graduation.",
+                "type": "AllOf"
+              }
+            ],
+            "slot": "@SUCCESSFUL_COMPLETION_OF_AT_LEAST_TWO_FREE_ELECTIVE_CREDITS_1000_OR_ABOVE_REQUIRED_FOR_GRADUATION",
+            "type": "Slot"
+          }
+        ],
+        "type": "AllOf"
+      }
+    ],
+    "type": "AllOf"
+  },
+  "schema_version": 1,
+  "source": "catalog_requirements_table",
+  "title": "Theatre Arts - Musical Theatre Emphasis, B.F.A.",
+  "totalCredits": 126.0
+}

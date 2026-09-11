@@ -1,0 +1,27 @@
+{
+  "bindings": [],
+  "blockTotals": [],
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "grid_requirement_binding",
+    "adapter_version": "1.0.0",
+    "as_of": "2026-09-04",
+    "notes": [
+      "Derived from credits and counts, not from label similarity. A slot the arithmetic does not settle is reported, not guessed."
+    ],
+    "source": "grid_requirement_binding"
+  },
+  "programId": "accounting-undergraduate-certificate",
+  "schema_version": 1,
+  "summary": {
+    "blocksNotAddingUp": 0,
+    "bound": 0,
+    "slots": 0,
+    "unboundRequirements": 0,
+    "unboundSlots": 0
+  },
+  "unbound": {
+    "requirements": [],
+    "slots": []
+  }
+}

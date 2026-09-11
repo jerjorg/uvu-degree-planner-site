@@ -1,0 +1,339 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_courseleaf",
+    "adapter_version": "1.0.0",
+    "source": "catalog_plan_of_study_grid"
+  },
+  "meta": {
+    "degree": "B.S.",
+    "name": "Computer Science",
+    "title": "Computer Science, B.S.",
+    "totalCredits": 120.0
+  },
+  "programId": "computer-science-bs",
+  "schema_version": 1,
+  "seasons": [
+    "F",
+    "P"
+  ],
+  "source": "catalog_plan_of_study_grid",
+  "terms": [
+    {
+      "index": 1,
+      "items": [
+        {
+          "code": "CS 1400",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Fundamentals of Programming"
+        },
+        {
+          "code": "ENGL 1010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Introduction to Academic Writing"
+        },
+        {
+          "code": "MATH 1210",
+          "credits": 4.0,
+          "kind": "course",
+          "title": "Calculus I"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        }
+      ],
+      "label": "Semester 1",
+      "printedCredits": 16.0,
+      "year": "First Year"
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "code": "CS 1410",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Object Oriented Programming"
+        },
+        {
+          "code": "CS 2810",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Computer Organization and Architecture"
+        },
+        {
+          "code": "ENGL 2010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Intermediate Academic Writing"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        }
+      ],
+      "label": "Semester 2",
+      "printedCredits": 15.0,
+      "year": "First Year"
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "code": "CS 2300",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Discrete Mathematical Structures I"
+        },
+        {
+          "code": "CS 2370",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "C Plus Plus Programming"
+        },
+        {
+          "code": "CS 2420",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Introduction to Algorithms and Data Structures"
+        },
+        {
+          "code": "CS 2600",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Computer Networks I"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        }
+      ],
+      "label": "Semester 3",
+      "printedCredits": 15.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "code": "CS 2450",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Software Engineering"
+        },
+        {
+          "code": "CS 2550",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Web Programming I"
+        },
+        {
+          "code": "CS 2900",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Data Privacy and Security"
+        },
+        {
+          "credits": 4.0,
+          "kind": "slot",
+          "label": "Core Science",
+          "slot": "@CORE_SCIENCE"
+        },
+        {
+          "credits": 1.0,
+          "kind": "slot",
+          "label": "Core Science Lab",
+          "slot": "@CORE_SCIENCE_LAB"
+        }
+      ],
+      "label": "Semester 4",
+      "printedCredits": 14.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 5,
+      "items": [
+        {
+          "code": "CS 3240",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Discrete Mathematical Structures II"
+        },
+        {
+          "code": "CS 3310",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Analysis of Algorithms"
+        },
+        {
+          "code": "CS 3520",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Database Theory"
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Java Software Development or CsharpNET Software Development or Python Software Development or C Plus Plus Software Development or JavaScript Software Development or Advanced Programming Language Other",
+          "options": [
+            "CS 3250",
+            "CS 3260",
+            "CS 3270",
+            "CS 3370",
+            "CS 3380",
+            "CS 3390R"
+          ]
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        }
+      ],
+      "label": "Semester 5",
+      "printedCredits": 15.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 6,
+      "items": [
+        {
+          "code": "CS 3060",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Operating Systems Theory"
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Applied Probability and Statistics for Engineers and Scientists or Introduction to Statistical Methods",
+          "options": [
+            "ECE 3710",
+            "STAT 2050"
+          ]
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CS Elective",
+          "slot": "@CS_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CS Elective",
+          "slot": "@CS_ELECTIVE"
+        }
+      ],
+      "label": "Semester 6",
+      "printedCredits": 15.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 7,
+      "items": [
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CS Elective",
+          "slot": "@CS_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CS Elective",
+          "slot": "@CS_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CS Elective",
+          "slot": "@CS_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CS Elective",
+          "slot": "@CS_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CS Elective",
+          "slot": "@CS_ELECTIVE"
+        }
+      ],
+      "label": "Semester 7",
+      "printedCredits": 15.0,
+      "year": "Fourth Year"
+    },
+    {
+      "index": 8,
+      "items": [
+        {
+          "code": "CS 3050G",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Global Social and Ethical Issues in Computing"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CS Elective",
+          "slot": "@CS_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CS Elective",
+          "slot": "@CS_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CS Elective",
+          "slot": "@CS_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CS Elective",
+          "slot": "@CS_ELECTIVE"
+        }
+      ],
+      "label": "Semester 8",
+      "printedCredits": 15.0,
+      "year": "Fourth Year"
+    }
+  ],
+  "variant": 0,
+  "variants": 1
+}

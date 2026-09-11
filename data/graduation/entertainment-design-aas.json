@@ -1,0 +1,50 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_graduation",
+    "adapter_version": "1.0.0",
+    "source": "catalog_program_page"
+  },
+  "programId": "entertainment-design-aas",
+  "rules": [
+    {
+      "credits": 60,
+      "id": "min_total_credits",
+      "kind": "min_total_credits",
+      "text": "Completion of a minimum of 60 semester credits."
+    },
+    {
+      "gpa": 2.0,
+      "id": "min_gpa",
+      "kind": "min_gpa",
+      "scope": "Art and Design courses",
+      "text": "Overall grade point average of 2.0 (C) or above with no grade lower than a C- in all Art and Design courses."
+    },
+    {
+      "grade": "C-",
+      "id": "min_grade",
+      "kind": "min_grade",
+      "scope": "Art and Design courses",
+      "text": "Overall grade point average of 2.0 (C) or above with no grade lower than a C- in all Art and Design courses."
+    },
+    {
+      "credits": 20,
+      "id": "min_credits_at_institution",
+      "kind": "min_credits_at_institution",
+      "text": "Residency hours--minimum of 20 credit hours through course attendance at UVU."
+    },
+    {
+      "id": "policy",
+      "kind": "policy",
+      "text": "Completion of GE and specified departmental requirements."
+    },
+    {
+      "id": "milestone",
+      "kind": "milestone",
+      "label": "Portfolio Submission",
+      "text": "Portfolio Submission."
+    }
+  ],
+  "schema_version": 1,
+  "unparsed": []
+}

@@ -1,0 +1,168 @@
+{
+  "bindings": [
+    {
+      "basis": "7 slots against the 7 open requirements of General Education Requirements, credits agreeing",
+      "confidence": "high",
+      "label": "American Institutions",
+      "requirement": "r.0.3",
+      "slot": "g1.3"
+    },
+    {
+      "basis": "7 slots against the 7 open requirements of General Education Requirements, credits agreeing",
+      "confidence": "high",
+      "label": "Arts",
+      "requirement": "r.0.4",
+      "slot": "g1.4"
+    },
+    {
+      "basis": "7 slots against the 7 open requirements of General Education Requirements, credits agreeing",
+      "confidence": "high",
+      "label": "Humanities",
+      "requirement": "r.0.5",
+      "slot": "g2.3"
+    },
+    {
+      "basis": "7 slots against the 7 open requirements of General Education Requirements, credits agreeing",
+      "confidence": "high",
+      "label": "Life Sciences",
+      "requirement": "r.0.6",
+      "slot": "g2.4"
+    },
+    {
+      "basis": "7 slots against the 7 open requirements of General Education Requirements, credits agreeing",
+      "confidence": "high",
+      "label": "Physical Sciences",
+      "requirement": "r.0.7",
+      "slot": "g3.4"
+    },
+    {
+      "basis": "adjacent slots totalling 5 credits",
+      "confidence": "moderate",
+      "label": "Complete one of the following course/lab combinations:",
+      "requirement": "r.1.0",
+      "slot": "g4.3"
+    },
+    {
+      "basis": "adjacent slots totalling 5 credits",
+      "confidence": "moderate",
+      "label": "Complete one of the following course/lab combinations:",
+      "requirement": "r.1.0",
+      "slot": "g4.4"
+    },
+    {
+      "basis": "7 slots against the 7 open requirements of General Education Requirements, credits agreeing",
+      "confidence": "high",
+      "label": "Social & Behavioral Sciences",
+      "requirement": "r.0.8",
+      "slot": "g5.4"
+    },
+    {
+      "basis": "7 slots against the 7 open requirements of General Education Requirements, credits agreeing",
+      "confidence": "high",
+      "label": "Personal, Professional, and Civic Growth",
+      "requirement": "r.0.9",
+      "slot": "g6.2"
+    },
+    {
+      "basis": "11 slots of 3 credits fill 33",
+      "confidence": "high",
+      "label": "Complete 33 credits from the following recommended tracks. Minimum grade of C- required in track courses.",
+      "requirement": "r.2.0",
+      "slot": "g6.3"
+    },
+    {
+      "basis": "11 slots of 3 credits fill 33",
+      "confidence": "high",
+      "label": "Complete 33 credits from the following recommended tracks. Minimum grade of C- required in track courses.",
+      "requirement": "r.2.0",
+      "slot": "g6.4"
+    },
+    {
+      "basis": "11 slots of 3 credits fill 33",
+      "confidence": "high",
+      "label": "Complete 33 credits from the following recommended tracks. Minimum grade of C- required in track courses.",
+      "requirement": "r.2.0",
+      "slot": "g7.0"
+    },
+    {
+      "basis": "11 slots of 3 credits fill 33",
+      "confidence": "high",
+      "label": "Complete 33 credits from the following recommended tracks. Minimum grade of C- required in track courses.",
+      "requirement": "r.2.0",
+      "slot": "g7.1"
+    },
+    {
+      "basis": "11 slots of 3 credits fill 33",
+      "confidence": "high",
+      "label": "Complete 33 credits from the following recommended tracks. Minimum grade of C- required in track courses.",
+      "requirement": "r.2.0",
+      "slot": "g7.2"
+    },
+    {
+      "basis": "11 slots of 3 credits fill 33",
+      "confidence": "high",
+      "label": "Complete 33 credits from the following recommended tracks. Minimum grade of C- required in track courses.",
+      "requirement": "r.2.0",
+      "slot": "g7.3"
+    },
+    {
+      "basis": "11 slots of 3 credits fill 33",
+      "confidence": "high",
+      "label": "Complete 33 credits from the following recommended tracks. Minimum grade of C- required in track courses.",
+      "requirement": "r.2.0",
+      "slot": "g7.4"
+    },
+    {
+      "basis": "11 slots of 3 credits fill 33",
+      "confidence": "high",
+      "label": "Complete 33 credits from the following recommended tracks. Minimum grade of C- required in track courses.",
+      "requirement": "r.2.0",
+      "slot": "g8.1"
+    },
+    {
+      "basis": "11 slots of 3 credits fill 33",
+      "confidence": "high",
+      "label": "Complete 33 credits from the following recommended tracks. Minimum grade of C- required in track courses.",
+      "requirement": "r.2.0",
+      "slot": "g8.2"
+    },
+    {
+      "basis": "11 slots of 3 credits fill 33",
+      "confidence": "high",
+      "label": "Complete 33 credits from the following recommended tracks. Minimum grade of C- required in track courses.",
+      "requirement": "r.2.0",
+      "slot": "g8.3"
+    },
+    {
+      "basis": "11 slots of 3 credits fill 33",
+      "confidence": "high",
+      "label": "Complete 33 credits from the following recommended tracks. Minimum grade of C- required in track courses.",
+      "requirement": "r.2.0",
+      "slot": "g8.4"
+    }
+  ],
+  "blockTotals": [],
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "grid_requirement_binding",
+    "adapter_version": "1.0.0",
+    "as_of": "2026-09-06",
+    "notes": [
+      "Derived from credits and counts, not from label similarity. A slot the arithmetic does not settle is reported, not guessed."
+    ],
+    "source": "grid_requirement_binding"
+  },
+  "programId": "computer-science-bs",
+  "schema_version": 1,
+  "summary": {
+    "blocksNotAddingUp": 0,
+    "bound": 20,
+    "slots": 20,
+    "unboundRequirements": 0,
+    "unboundSlots": 0
+  },
+  "unbound": {
+    "requirements": [],
+    "slots": []
+  }
+}

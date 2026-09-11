@@ -1,0 +1,135 @@
+{
+  "bindings": [
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Physical Science",
+      "requirement": "r.2.6",
+      "slot": "g3.4"
+    },
+    {
+      "basis": "1 slots against the 1 open requirements of General Education Requirements, credits agreeing",
+      "confidence": "high",
+      "label": "Choose one of the following:",
+      "requirement": "r.2.3",
+      "slot": "g3.5"
+    },
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Humanities",
+      "requirement": "r.2.7",
+      "slot": "g4.4"
+    },
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Biology",
+      "requirement": "r.2.5",
+      "slot": "g4.5"
+    },
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Personal, Professional, and Civic Growth",
+      "requirement": "r.2.9",
+      "slot": "g5.4"
+    },
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Social/Behavioral Science",
+      "requirement": "r.2.8",
+      "slot": "g5.6"
+    }
+  ],
+  "blockTotals": [
+    {
+      "block": "Dance Requirements",
+      "parsed": 0,
+      "printed": 62.0
+    }
+  ],
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "grid_requirement_binding",
+    "adapter_version": "1.0.0",
+    "as_of": "2026-09-06",
+    "notes": [
+      "Derived from credits and counts, not from label similarity. A slot the arithmetic does not settle is reported, not guessed."
+    ],
+    "source": "grid_requirement_binding"
+  },
+  "programId": "dance-ballet-emphasis-bfa",
+  "schema_version": 1,
+  "summary": {
+    "blocksNotAddingUp": 1,
+    "bound": 6,
+    "slots": 15,
+    "unboundRequirements": 2,
+    "unboundSlots": 9
+  },
+  "unbound": {
+    "requirements": [
+      {
+        "credits": 11.0,
+        "label": "Choose 11 credits from the following:",
+        "requirement": "r.1.10",
+        "type": "CreditsFrom"
+      },
+      {
+        "credits": 9.0,
+        "label": "Complete 9 credits from any course(s) 1000 level or higher (Students must have 40 upper division credits hours to graduate.)",
+        "requirement": "r.1.11",
+        "type": "CreditsFrom"
+      }
+    ],
+    "slots": [
+      {
+        "credits": 3.0,
+        "label": "Dance Electives",
+        "slot": "g2.6"
+      },
+      {
+        "credits": 3.0,
+        "label": "DANC Elective",
+        "slot": "g3.3"
+      },
+      {
+        "credits": 2.0,
+        "label": "DANC Elective",
+        "slot": "g4.3"
+      },
+      {
+        "credits": 1.0,
+        "label": "Dance Elective (non-ballet) e.g. Jazz, African, Tap, etc.",
+        "slot": "g5.3"
+      },
+      {
+        "credits": 1.0,
+        "label": "Elective (an course 1000 level or higher)",
+        "slot": "g5.5"
+      },
+      {
+        "credits": 3.0,
+        "label": "Electives",
+        "slot": "g6.5"
+      },
+      {
+        "credits": 3.0,
+        "label": "Elective (any course 1000 level or higher)",
+        "slot": "g7.6"
+      },
+      {
+        "credits": 2.0,
+        "label": "Dance Electives",
+        "slot": "g8.4"
+      },
+      {
+        "credits": 2.0,
+        "label": "Elective (any course 1000 level or higher)",
+        "slot": "g8.5"
+      }
+    ]
+  }
+}

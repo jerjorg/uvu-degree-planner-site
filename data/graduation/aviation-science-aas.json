@@ -1,0 +1,45 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_graduation",
+    "adapter_version": "1.0.0",
+    "source": "catalog_program_page"
+  },
+  "programId": "aviation-science-aas",
+  "rules": [
+    {
+      "credits": 63,
+      "id": "min_total_credits",
+      "kind": "min_total_credits",
+      "text": "Completion of a minimum of 63 or more semester credits."
+    },
+    {
+      "gpa": 2.0,
+      "id": "min_gpa",
+      "kind": "min_gpa",
+      "scope": "overall",
+      "text": "Overall grade point average of 2.0 (C) or above."
+    },
+    {
+      "grade": "C-",
+      "id": "min_grade",
+      "kind": "min_grade",
+      "scope": "Aviation courses",
+      "text": "Aviation courses require a C- or above."
+    },
+    {
+      "credits": 20,
+      "id": "min_credits_at_institution",
+      "kind": "min_credits_at_institution",
+      "text": "Residency hours--minimum of 20 credit hours through course attendance at UVU."
+    },
+    {
+      "id": "milestone",
+      "kind": "milestone",
+      "label": "Commercial Pilot Certificate",
+      "text": "Completion of Commercial Pilot Certificate."
+    }
+  ],
+  "schema_version": 1,
+  "unparsed": []
+}

@@ -1,0 +1,431 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_courseleaf",
+    "adapter_version": "1.0.0",
+    "source": "catalog_plan_of_study_grid"
+  },
+  "meta": {
+    "degree": "B.F.A.",
+    "name": "Dance - Ballet Emphasis",
+    "title": "Dance - Ballet Emphasis, B.F.A.",
+    "totalCredits": 120.0
+  },
+  "programId": "dance-ballet-emphasis-bfa",
+  "schema_version": 1,
+  "seasons": [
+    "F",
+    "P"
+  ],
+  "source": "catalog_plan_of_study_grid",
+  "terms": [
+    {
+      "index": 1,
+      "items": [
+        {
+          "code": "DANC 2110",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Orientation to Dance"
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Ballet Technique and Theory I or Ballet Technique and Theory II",
+          "options": [
+            "DANC 1270R",
+            "DANC 2270R"
+          ]
+        },
+        {
+          "credits": 1.0,
+          "kind": "choice",
+          "label": "Pointe II or Allegro Dance II",
+          "options": [
+            "DANC 2210R",
+            "DANC 2220R"
+          ]
+        },
+        {
+          "code": "DANC 1430R",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Modern/Contemporary Dance Technique and Theory I/Semester I"
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Introduction to Academic Writing or Foundations of Academic Writing",
+          "options": [
+            "ENGL 1010",
+            "ENGL 1005"
+          ]
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Quantitative Reasoning or Quantitative Reasoning with Integrated Algebra",
+          "options": [
+            "MAT 1030",
+            "MAT 1035"
+          ]
+        }
+      ],
+      "label": "Semester 1",
+      "printedCredits": 16.0,
+      "year": "First Year"
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "code": "DANC 2330",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Improvisation"
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Ballet Technique and Theory I or Ballet Technique and Theory II",
+          "options": [
+            "DANC 1270R",
+            "DANC 2270R"
+          ]
+        },
+        {
+          "credits": 1.0,
+          "kind": "choice",
+          "label": "Pointe II or Allegro Dance II",
+          "options": [
+            "DANC 2210R",
+            "DANC 2220R"
+          ]
+        },
+        {
+          "code": "DANC 1610R",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Dance Conditioning"
+        },
+        {
+          "code": "DANC 1440R",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Modern/Contemporary Dance Technique and Theory I/Semester II"
+        },
+        {
+          "code": "ENGL 2010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Intermediate Academic Writing"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Dance Electives",
+          "slot": "@DANCE_ELECTIVES"
+        }
+      ],
+      "label": "Semester 2",
+      "printedCredits": 15.0,
+      "year": "First Year"
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "code": "DANC 2340",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Composition"
+        },
+        {
+          "code": "DANC 3270R",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Ballet Technique and Theory III"
+        },
+        {
+          "credits": 1.0,
+          "kind": "choice",
+          "label": "Pointe III or Allegro Dance III",
+          "options": [
+            "DANC 3210R",
+            "DANC 3220R"
+          ]
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "DANC Elective",
+          "slot": "@DANC_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Physical Science Distribution",
+          "slot": "@PHYSICAL_SCIENCE_DISTRIBUTION"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "American Institution Distribution",
+          "slot": "@AMERICAN_INSTITUTION_DISTRIBUTION"
+        }
+      ],
+      "label": "Semester 3",
+      "printedCredits": 15.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "code": "DANC 3270R",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Ballet Technique and Theory III"
+        },
+        {
+          "credits": 1.0,
+          "kind": "choice",
+          "label": "Pointe III or Allegro Dance III",
+          "options": [
+            "DANC 3210R",
+            "DANC 3220R"
+          ]
+        },
+        {
+          "code": "DANC 2630G",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Dance as a Cultural Practice I"
+        },
+        {
+          "credits": 2.0,
+          "kind": "slot",
+          "label": "DANC Elective",
+          "slot": "@DANC_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Humanities Distribution",
+          "slot": "@HUMANITIES_DISTRIBUTION"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Biology Distribution",
+          "slot": "@BIOLOGY_DISTRIBUTION"
+        }
+      ],
+      "label": "Semester 4",
+      "printedCredits": 15.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 5,
+      "items": [
+        {
+          "code": "DANC 3270R",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Ballet Technique and Theory III"
+        },
+        {
+          "credits": 1.0,
+          "kind": "choice",
+          "label": "Pointe III or Allegro Dance III",
+          "options": [
+            "DANC 3210R",
+            "DANC 3220R"
+          ]
+        },
+        {
+          "code": "DANC 3630",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Dance as a Cultural Practice II"
+        },
+        {
+          "credits": 1.0,
+          "kind": "slot",
+          "label": "Dance Elective (non-ballet) e.g. Jazz, African, Tap, etc.",
+          "slot": "@DANCE_ELECTIVE_NON_BALLET_E_G_JAZZ_AFRICAN_TAP_ETC"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Personal, Professional, & Civic Growth Distribution",
+          "slot": "@PERSONAL_PROFESSIONAL_CIVIC_GROWTH_DISTRIBUTION"
+        },
+        {
+          "credits": 1.0,
+          "kind": "slot",
+          "label": "Elective (an course 1000 level or higher)",
+          "slot": "@ELECTIVE_AN_COURSE_1000_LEVEL_OR_HIGHER"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Social/Behavioral Science Distribution",
+          "slot": "@SOCIAL_BEHAVIORAL_SCIENCE_DISTRIBUTION"
+        }
+      ],
+      "label": "Semester 5",
+      "printedCredits": 15.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 6,
+      "items": [
+        {
+          "code": "DANC 3270R",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Ballet Technique and Theory III"
+        },
+        {
+          "credits": 1.0,
+          "kind": "choice",
+          "label": "Pointe III or Allegro Dance III",
+          "options": [
+            "DANC 3210R",
+            "DANC 3220R"
+          ]
+        },
+        {
+          "code": "DANC 3340",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Ballet Choreography"
+        },
+        {
+          "code": "DANC 3140",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Dance Production and Lighting"
+        },
+        {
+          "code": "DANC 3680",
+          "credits": 4.0,
+          "kind": "course",
+          "title": "Dance Kinesiology"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Electives",
+          "slot": "@ELECTIVES"
+        }
+      ],
+      "label": "Semester 6",
+      "printedCredits": 15.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 7,
+      "items": [
+        {
+          "code": "DANC 4270R",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Ballet Technique and Theory IV"
+        },
+        {
+          "credits": 1.0,
+          "kind": "choice",
+          "label": "Pointe IV or Allegro Dance IV",
+          "options": [
+            "DANC 4210R",
+            "DANC 4220R"
+          ]
+        },
+        {
+          "code": "DANC 4250R",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Repertory Ballet Ensemble"
+        },
+        {
+          "code": "DANC 4240R",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Partnering"
+        },
+        {
+          "code": "DANC 4260",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Ballet Pedagogy"
+        },
+        {
+          "code": "DANC 4350",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Senior Capstone I"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Elective (any course 1000 level or higher)",
+          "slot": "@ELECTIVE_ANY_COURSE_1000_LEVEL_OR_HIGHER"
+        }
+      ],
+      "label": "Semester 7",
+      "printedCredits": 16.0,
+      "year": "Fourth Year"
+    },
+    {
+      "index": 8,
+      "items": [
+        {
+          "code": "DANC 4270R",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Ballet Technique and Theory IV"
+        },
+        {
+          "credits": 1.0,
+          "kind": "choice",
+          "label": "Pointe IV or Allegro Dance IV",
+          "options": [
+            "DANC 4210R",
+            "DANC 4220R"
+          ]
+        },
+        {
+          "code": "DANC 4250R",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Repertory Ballet Ensemble"
+        },
+        {
+          "code": "DANC 4360",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Senior Capstone II"
+        },
+        {
+          "credits": 2.0,
+          "kind": "slot",
+          "label": "Dance Electives",
+          "slot": "@DANCE_ELECTIVES"
+        },
+        {
+          "credits": 2.0,
+          "kind": "slot",
+          "label": "Elective (any course 1000 level or higher)",
+          "slot": "@ELECTIVE_ANY_COURSE_1000_LEVEL_OR_HIGHER"
+        }
+      ],
+      "label": "Semester 8",
+      "printedCredits": 13.0,
+      "year": "Fourth Year"
+    }
+  ],
+  "variant": 0,
+  "variants": 1
+}

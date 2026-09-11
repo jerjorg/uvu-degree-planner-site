@@ -1,0 +1,72 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_graduation",
+    "adapter_version": "1.0.0",
+    "source": "catalog_program_page"
+  },
+  "programId": "dance-ballet-emphasis-bfa",
+  "rules": [
+    {
+      "credits": 120,
+      "id": "min_total_credits",
+      "kind": "min_total_credits",
+      "text": "Completion of a minimum of 120 semester credits; a minimum of 40 credits must be upper division."
+    },
+    {
+      "credits": 40,
+      "id": "min_credits_at_level",
+      "kind": "min_credits_at_level",
+      "level": 3000,
+      "text": "Completion of a minimum of 120 semester credits; a minimum of 40 credits must be upper division."
+    },
+    {
+      "gpa": 2.0,
+      "id": "min_gpa",
+      "kind": "min_gpa",
+      "scope": "overall",
+      "text": "Overall GPA of 2.0 (C) or above."
+    },
+    {
+      "gpa": 2.5,
+      "id": "min_gpa_2",
+      "kind": "min_gpa",
+      "scope": "DANC courses",
+      "text": "Overall GPA of 2.5 or above in all DANC courses."
+    },
+    {
+      "credits": 30,
+      "id": "min_credits_at_institution",
+      "kind": "min_credits_at_institution",
+      "text": "Residency hours: minimum of 30 credit hours through course attendance at UVU, with at least 10 hours earned in the last 45 hours."
+    },
+    {
+      "credits": 10,
+      "id": "min_credits_at_institution_within_last",
+      "kind": "min_credits_at_institution_within_last",
+      "ofLastHours": 45,
+      "text": "Residency hours: minimum of 30 credit hours through course attendance at UVU, with at least 10 hours earned in the last 45 hours."
+    },
+    {
+      "id": "policy",
+      "kind": "policy",
+      "text": "Completion of GE and specified departmental requirements."
+    },
+    {
+      "attribute": "global_intercultural",
+      "count": 1,
+      "id": "min_courses_with_attribute",
+      "kind": "min_courses_with_attribute",
+      "text": "Successful completion of at least one Global/Intercultural course."
+    },
+    {
+      "attribute": "writing_enriched",
+      "count": 2,
+      "id": "min_courses_with_attribute_2",
+      "kind": "min_courses_with_attribute",
+      "text": "Successful completion of at least two Writing Enriched courses."
+    }
+  ],
+  "schema_version": 1,
+  "unparsed": []
+}

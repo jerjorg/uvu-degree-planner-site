@@ -1,0 +1,394 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_requirements",
+    "adapter_version": "1.0.0"
+  },
+  "programId": "elementary-education-bs",
+  "requirements": {
+    "of": [
+      {
+        "credits": 30.0,
+        "label": "General Education Requirements 1",
+        "of": [
+          {
+            "of": [
+              {
+                "code": "ENGL 1010",
+                "credits": 3.0,
+                "title": "Introduction to Academic Writing",
+                "type": "Course"
+              },
+              {
+                "code": "ENGL 1005",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "ENGL 2010",
+            "credits": 3.0,
+            "title": "Intermediate Academic Writing",
+            "type": "Course"
+          },
+          {
+            "credits": 3.0,
+            "label": "Complete one of the following: 3",
+            "of": [
+              {
+                "code": "MATH 1050",
+                "title": "College Algebra (4)",
+                "type": "Course"
+              },
+              {
+                "code": "MATH 1055",
+                "title": "College Algebra with Preliminaries (5)",
+                "type": "Course"
+              },
+              {
+                "code": "MATH 2000",
+                "title": "Algebraic Reasoning with Modeling (3)",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "credits": 3.0,
+            "label": "Complete one of the following;",
+            "of": [
+              {
+                "combined": true,
+                "label": "US History to 1877 and US History since 1877 (6)",
+                "of": [
+                  {
+                    "code": "HIST 2700",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "HIST 2710",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "code": "HIST 1700",
+                "title": "American History (3)",
+                "type": "Course"
+              },
+              {
+                "code": "HIST 1740",
+                "title": "US Economic History (3)",
+                "type": "Course"
+              },
+              {
+                "code": "POLS 1000",
+                "title": "American Heritage (3)",
+                "type": "Course"
+              },
+              {
+                "code": "POLS 1100",
+                "title": "American National Government (3)",
+                "type": "Course"
+              },
+              {
+                "group": true,
+                "label": "Distribution Courses:",
+                "type": "AllOf"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "credits": 3.0,
+            "label": "Biology",
+            "slot": "@BIOLOGY",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Physical Science",
+            "slot": "@PHYSICAL_SCIENCE",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Social Behavioral Science 4",
+            "slot": "@SOCIAL_BEHAVIORAL_SCIENCE_4",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Personal, Professional, and Civic Growth",
+            "slot": "@PERSONAL_PROFESSIONAL_AND_CIVIC_GROWTH",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Humanities",
+            "slot": "@HUMANITIES",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Fine Arts",
+            "slot": "@FINE_ARTS",
+            "type": "Slot"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 78.0,
+        "label": "Discipline Core Requirements",
+        "of": [
+          {
+            "group": true,
+            "label": "Pre-Professional Core Requirements 1",
+            "type": "AllOf"
+          },
+          {
+            "code": "EDEL 1010",
+            "credits": 2.0,
+            "title": "Introduction to Education 2",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 2200",
+            "credits": 3.0,
+            "title": "Introduction to Educational Technology 2",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 2330",
+            "credits": 3.0,
+            "title": "Childrens Literature 2",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 2400G",
+            "credits": 2.0,
+            "title": "Exceptional Students 2",
+            "type": "Course"
+          },
+          {
+            "code": "MATH 2010",
+            "credits": 3.0,
+            "title": "Mathematics for Elementary Teachers I 3",
+            "type": "Course"
+          },
+          {
+            "code": "MATH 2020",
+            "credits": 3.0,
+            "title": "Mathematics for Elementary Teachers II 3",
+            "type": "Course"
+          },
+          {
+            "code": "HLSC 2900",
+            "credits": 2.0,
+            "title": "Health Education for Elementary Teachers 2",
+            "type": "Course"
+          },
+          {
+            "group": true,
+            "label": "Professional Education Core Requirements 2",
+            "type": "AllOf"
+          },
+          {
+            "code": "EDEL 3000",
+            "credits": 3.0,
+            "title": "Educational Psychology",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 3100",
+            "credits": 3.0,
+            "title": "Early Childhood Principles and Practices",
+            "type": "Course"
+          },
+          {
+            "code": "PETE 3150",
+            "credits": 2.0,
+            "title": "Elementary Physical Education",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 3250G",
+            "credits": 2.0,
+            "title": "Equitable Technology Integration",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 3325",
+            "credits": 1.0,
+            "title": "Elementary Assessment",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 3300G",
+            "credits": 2.0,
+            "title": "Diversity in Classroom Communities",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 3350",
+            "credits": 3.0,
+            "title": "Instructional Design",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4200",
+            "credits": 1.0,
+            "title": "Elementary Learning Environments I",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4210",
+            "credits": 1.0,
+            "title": "Elementary Learning Environments II",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4230",
+            "credits": 1.0,
+            "title": "Elementary Learning Environments III",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4240",
+            "credits": 2.0,
+            "title": "Elementary Learning Environments IV",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4400",
+            "credits": 3.0,
+            "title": "Elementary Literacy Instruction and Assessment I",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4410",
+            "credits": 3.0,
+            "title": "Elementary Literacy Instruction and Assessment II",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4420",
+            "credits": 3.0,
+            "title": "Elementary Language Arts Instruction and Assessment",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4430G",
+            "credits": 3.0,
+            "title": "Teaching Methods for Multilingual Learners",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4510",
+            "credits": 3.0,
+            "title": "Elementary Mathematics Instruction and Assessment I",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4520",
+            "credits": 3.0,
+            "title": "Elementary Science Instruction and Assessment",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4530",
+            "credits": 3.0,
+            "title": "Elementary Social Studies Instruction and Assessment",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4540",
+            "credits": 3.0,
+            "title": "Elementary Fine Arts Instruction and Assessment",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4550",
+            "credits": 3.0,
+            "title": "Elementary Mathematics Instruction and Assessment II",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4620",
+            "credits": 2.0,
+            "title": "Differentiation for Academic Diversity",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4880",
+            "credits": 8.0,
+            "title": "Student Teaching--Grades K-6",
+            "type": "Course"
+          },
+          {
+            "code": "EDEL 4990",
+            "credits": 2.0,
+            "title": "Teacher Assessment Project",
+            "type": "Course"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 12.0,
+        "label": "Elective Requirements:",
+        "of": [
+          {
+            "credits": 12.0,
+            "label": "Complete additional credits to meet requirements",
+            "of": [
+              {
+                "group": true,
+                "label": "Recommended elective courses:",
+                "of": [
+                  {
+                    "code": "ART 2100",
+                    "title": "Teaching Art for Children (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "DANC 2100",
+                    "title": "Teaching Dance for Children (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "MUSC 2100",
+                    "title": "Teaching Music for Children (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "THEA 2100",
+                    "title": "Teaching Theatre For Children (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "SLSS 1200R",
+                    "title": "Testing Strategies for Educators (1)",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              }
+            ],
+            "slot": "@COMPLETE_ADDITIONAL_CREDITS_TO_MEET_REQUIREMENTS",
+            "type": "Slot"
+          }
+        ],
+        "type": "AllOf"
+      }
+    ],
+    "type": "AllOf"
+  },
+  "schema_version": 1,
+  "source": "catalog_requirements_table",
+  "title": "Elementary Education, B.S.",
+  "totalCredits": 120.0
+}

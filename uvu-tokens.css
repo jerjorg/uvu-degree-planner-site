@@ -1,0 +1,201 @@
+/* ==========================================================================
+   uvu-tokens.css
+   UVU design tokens as CSS custom properties.
+
+   Values are transcribed from Utah Valley University's live web standards:
+     - www.uvu.edu/_common/css/global.css   (type, links, container)
+     - www.uvu.edu/_common/css/helpers.css  (the full approved colour system)
+     - www.uvu.edu/web/support/300-design-format/  (approved colours + fonts)
+
+   Unofficial. Compiled for building UVU-consistent sites outside the
+   Modern Campus CMS. Confirm anything customer-facing with UVU Digital
+   Experiences & Accessible Technology (dx@uvu.edu / 801-863-7975).
+   ========================================================================== */
+
+:root {
+
+  /* ---------------------------------------------------------------
+     1. BRAND CORE
+     UVU green is the whole identity. Everything else is support.
+     --------------------------------------------------------------- */
+  --uvu-green:            #275d38;   /* primary. 7.75:1 on white */
+  --uvu-silver:           #8e8c89;   /* 3.35:1 on white — LARGE TEXT / non-text only */
+  --uvu-white:            #ffffff;
+  --uvu-black:            #000000;
+
+  /* ---------------------------------------------------------------
+     2. UVU GREEN RAMP
+     Note: uvu-green is the ONE family with a step 1. Every other
+     family starts at step 2. Step 5 is the base colour.
+     --------------------------------------------------------------- */
+  --uvu-green-1:          #87a590;
+  --uvu-green-2:          #6f937a;
+  --uvu-green-3:          #578164;
+  --uvu-green-4:          #3f6f4e;
+  --uvu-green-5:          #275d38;   /* = --uvu-green */
+  --uvu-green-6:          #235332;
+  --uvu-green-7:          #1e482c;
+
+  /* ---------------------------------------------------------------
+     3. SUPPORTING FAMILIES  (step 2 lightest → step 7 darkest,
+        step 5 = base). Use one accent family per site, sparingly.
+     --------------------------------------------------------------- */
+
+  /* Wolverine green. NOTE: upstream this family is split across two names —
+     the base is .text-green / .bg-green, but its tints are .text-forest-2 …
+     .text-forest-7. Both spellings are provided here and are identical. */
+  --forest-2: #e6f3ec;  --forest-3: #99ceb1;  --forest-4: #4da977;
+  --forest-5: #00843d;  --forest-6: #005c2b;  --forest-7: #003518;
+  --green-2:  #e6f3ec;  --green-3:  #99ceb1;  --green-4:  #4da977;
+  --green-5:  #00843d;  --green-6:  #005c2b;  --green-7:  #003518;
+
+  --clover-2: #edf6ec;  --clover-3: #b7dab2;  --clover-4: #81be79;
+  --clover-5: #4ba23f;  --clover-6: #35712c;  --clover-7: #1e4119;
+
+  --fern-2:   #f2f9e9;  --fern-3:   #c9e5a6;  --fern-4:   #a1d263;
+  --fern-5:   #78be20;  --fern-6:   #548516;  --fern-7:   #304c0d;
+
+  --lime-2:   #f9fdf0;  --lime-3:   #e8f6c4;  --lime-4:   #d6ef98;
+  --lime-5:   #c5e86c;  --lime-6:   #8aa24c;  --lime-7:   #4f5d2b;
+
+  --aqua-2:   #f3faf8;  --aqua-3:   #cfe9e4;  --aqua-4:   #aad9d0;
+  --aqua-5:   #86c8bc;  --aqua-6:   #5e8c84;  --aqua-7:   #36504b;
+
+  --teal-2:   #e6f9f7;  --teal-3:   #99e5e1;  --teal-4:   #4dd2ca;
+  --teal-5:   #00bfb3;  --teal-6:   #00867d;  --teal-7:   #004c48;
+
+  --blue-2:   #e6f4fa;  --blue-3:   #99d5e9;  --blue-4:   #4db5d9;
+  --blue-5:   #0095c8;  --blue-6:   #00688c;  --blue-7:   #003c50;
+
+  --blue-light-2: #f8fbfd; --blue-light-3: #e5eff5; --blue-light-4: #d1e2ee;
+  --blue-light-5: #bdd6e6; --blue-light-6: #8496a1; --blue-light-7: #4c565c;
+
+  --purple-2: #eeeef2;  --purple-3: #bdbbc9;  --purple-4: #8b87a1;
+  --purple-5: #595478;  --purple-6: #3e3b54;  --purple-7: #242230;
+
+  /* beige-7 is #242230 upstream — identical to purple-7, which breaks the
+     ramp and is almost certainly a copy/paste error in UVU's helpers.css.
+     The published value is kept so this matches .text-beige-7 exactly;
+     #584f4e is the in-family alternative if you need the ramp to hold. */
+  --beige-2:  #fcfafa;  --beige-3:  #f1eceb;  --beige-4:  #e7dedd;
+  --beige-5:  #ddd0ce;  --beige-6:  #9b9290;  --beige-7:  #242230;
+  --beige-7-corrected: #584f4e;
+
+  --brick-light-2: #f8f3f2; --brick-light-3: #e4cdc9; --brick-light-4: #d0a8a1;
+  --brick-light-5: #bc8279; --brick-light-6: #845b55; --brick-light-7: #4b3430;
+
+  --brick-2:  #f3ebeb;  --brick-3:  #cdb1ae;  --brick-4:  #a87671;
+  --brick-5:  #823b34;  --brick-6:  #5b2924;  --brick-7:  #341815;
+
+  --red-2:    #fceeea;  --red-3:    #f3baac;  --red-4:    #ea866e;
+  --red-5:    #e15230;  --red-6:    #9e3922;  --red-7:    #5a2113;
+
+  --orange-2: #fbefe6;  --orange-3: #eebe99;  --orange-4: #e18e4d;
+  --orange-5: #d45d00;  --orange-6: #944100;  --orange-7: #552500;
+
+  --gold-2:   #fff8e6;  --gold-3:   #ffe199;  --gold-4:   #ffcb4d;
+  --gold-5:   #ffb500;  --gold-6:   #b37f00;  --gold-7:   #664800;
+
+  --yellow-2: #fffbf0;  --yellow-3: #fdefc1;  --yellow-4: #fce493;
+  --yellow-5: #fbd865;  --yellow-6: #b09747;  --yellow-7: #645628;
+
+  --brown-2:  #f0efee;  --brown-3:  #c3c0bc;  --brown-4:  #96908a;
+  --brown-5:  #696158;  --brown-6:  #4a443e;  --brown-7:  #2a2723;
+
+  --gray-dark-2: #f6f6f7; --gray-dark-3: #dcdcdd; --gray-dark-4: #c1c2c4;
+  --gray-dark-5: #a7a8aa; --gray-dark-6: #757677; --gray-dark-7: #434344;
+
+  /* ---------------------------------------------------------------
+     4. NEUTRALS + SEMANTIC ROLES
+     --------------------------------------------------------------- */
+  --uvu-gray:             #e8e8e8;   /* rules, dividers, .bg-gray */
+  --uvu-gray-xlight:      #f9f9f9;   /* page-section tint */
+  --uvu-surface:          #f4f4f4;   /* accordions, panels */
+  --uvu-surface-alt:      #efefef;   /* accordion-block */
+
+  --uvu-ink:              #292929;   /* body copy */
+  --uvu-ink-muted:        #5e5e5e;   /* captions, figcaption, table caption */
+  --uvu-ink-heading:      #275d38;   /* global heading colour */
+  --uvu-ink-heading-alt:  #545454;   /* h1/h2 inside .content-wrap on dept pages */
+
+  --uvu-link:             #275d38;
+  --uvu-link-hover:       #275d38;
+  --uvu-link-visited:     #00843e;
+
+  --uvu-border:           #dddddd;
+  --uvu-focus:            currentColor;   /* UVU uses a dashed ring in currentColor */
+
+  /* Status. UVU has no formal alert palette — these map its approved
+     families onto the four states, all AA on white. */
+  --uvu-success:          #235332;   /* uvu-green-6 */
+  --uvu-success-bg:       #e6f3ec;   /* green-2   */
+  --uvu-info:             #00688c;   /* blue-6    */
+  --uvu-info-bg:          #e6f4fa;   /* blue-2    */
+  --uvu-warning:          #944100;   /* orange-6  */
+  --uvu-warning-bg:       #fbefe6;   /* orange-2  */
+  --uvu-danger:           #9e3922;   /* red-6     */
+  --uvu-danger-bg:        #fceeea;   /* red-2     */
+
+  /* ---------------------------------------------------------------
+     5. TYPOGRAPHY
+     Rajdhani = headings. Lato = body. Raleway/Montserrat approved
+     but rarely used. Do not add faces beyond these four.
+     Real shipped weights: Rajdhani 300/400/500/600/700,
+     Lato 100/300/400/700/900. Anything else silently synthesises.
+     --------------------------------------------------------------- */
+  --font-heading: "Rajdhani", "Trebuchet MS", "Segoe UI", sans-serif;
+  --font-body:    "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-alt:     "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono:    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+  --text-base:   16px;
+  --text-h1:     36px;
+  --text-h2:     30px;
+  --text-h3:     24px;
+  --text-h4:     18px;
+  --text-h5:     14px;
+  --text-h6:     12px;
+  --text-hero:   58px;   /* .jumbo h1, desktop */
+  --text-hero-sm:35px;   /* .jumbo h1, mobile  */
+  --text-small:  14px;
+  --text-caption:12px;
+
+  --leading-body:    1.5;      /* 16px → 24px */
+  --leading-tight:   1.1;      /* headings */
+  --weight-body:     400;
+  --weight-heading:  400;      /* UVU headings are LIGHT, not bold */
+  --weight-strong:   700;
+
+  /* ---------------------------------------------------------------
+     6. SPACE, LAYOUT, MOTION
+     UVU's rhythm is a plain 5px multiple, Bootstrap 3 heritage.
+     --------------------------------------------------------------- */
+  --space-1:   5px;
+  --space-2:  10px;
+  --space-3:  15px;
+  --space-4:  20px;
+  --space-5:  25px;
+  --space-6:  30px;
+  --space-8:  40px;
+  --space-10: 60px;
+  --space-12: 80px;
+
+  --container:      1200px;
+  --gutter:         30px;
+  --gutter-mobile:  15px;
+  --measure:        70ch;    /* cap running text for readability */
+
+  --bp-tablet:   768px;
+  --bp-laptop:   992px;
+  --bp-desktop: 1200px;
+
+  --radius-sm: 3px;
+  --radius:    5px;
+  --radius-lg: 6px;
+
+  --shadow-sm: 0 1px 4px rgba(0, 0, 0, .2);
+  --shadow:    0 2px 8px rgba(0, 0, 0, .15);
+
+  --ease:      cubic-bezier(.25, .1, .25, 1);
+  --dur:       .25s;
+}

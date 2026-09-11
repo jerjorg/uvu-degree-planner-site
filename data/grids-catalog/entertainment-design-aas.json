@@ -1,0 +1,183 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_courseleaf",
+    "adapter_version": "1.0.0",
+    "source": "catalog_plan_of_study_grid"
+  },
+  "meta": {
+    "degree": "A.A.S.",
+    "name": "Entertainment Design",
+    "title": "Entertainment Design, A.A.S.",
+    "totalCredits": 60.0
+  },
+  "programId": "entertainment-design-aas",
+  "schema_version": 1,
+  "seasons": [
+    "F",
+    "P"
+  ],
+  "source": "catalog_plan_of_study_grid",
+  "terms": [
+    {
+      "index": 1,
+      "items": [
+        {
+          "code": "ART 1120",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "2D Design"
+        },
+        {
+          "code": "ART 1210",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Observational Drawing"
+        },
+        {
+          "code": "ART 1220",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Perspective Drawing"
+        },
+        {
+          "code": "ART 1400",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Graphic Computer Applications"
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Introduction to Academic Writing or Foundations of Academic Writing",
+          "options": [
+            "ENGL 1010",
+            "ENGL 1005"
+          ]
+        }
+      ],
+      "label": "Semester 1",
+      "printedCredits": 15.0,
+      "year": "First Year"
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "code": "ART 2220",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Imagination and Visual Literacy"
+        },
+        {
+          "code": "ART 2240",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Illustrative Media and Techniques II"
+        },
+        {
+          "code": "ART 2250",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Gestural Drawing"
+        },
+        {
+          "code": "ART 2270",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Figure Drawing I"
+        },
+        {
+          "code": "ENGL 2010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Intermediate Academic Writing"
+        }
+      ],
+      "label": "Semester 2",
+      "printedCredits": 15.0,
+      "year": "First Year"
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "code": "ART 2260",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Digital Painting I"
+        },
+        {
+          "code": "ART 2280",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "3D Modeling"
+        },
+        {
+          "code": "ART 2440",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Motion Graphics I"
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Prehistoric Through Gothic Art History or Renaissance Through Contemporary Art History",
+          "options": [
+            "ARTH 2710",
+            "ARTH 2720G"
+          ]
+        },
+        {
+          "code": "MAT 1030",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Quantitative Reasoning"
+        }
+      ],
+      "label": "Semester 3",
+      "printedCredits": 15.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Free Elective (1000+)",
+          "slot": "@FREE_ELECTIVE_1000"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Free Elective (1000+)",
+          "slot": "@FREE_ELECTIVE_1000"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Free Elective (1000+)",
+          "slot": "@FREE_ELECTIVE_1000"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Free Elective (1000+)",
+          "slot": "@FREE_ELECTIVE_1000"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE distribution",
+          "slot": "@GE_DISTRIBUTION"
+        }
+      ],
+      "label": "Semester 4",
+      "printedCredits": 15.0,
+      "year": "Second Year"
+    }
+  ],
+  "variant": 0,
+  "variants": 1
+}

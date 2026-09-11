@@ -1,0 +1,329 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_courseleaf",
+    "adapter_version": "1.0.0",
+    "source": "catalog_plan_of_study_grid"
+  },
+  "meta": {
+    "degree": "B.S.",
+    "name": "Computational Data Science",
+    "title": "Computational Data Science, B.S.",
+    "totalCredits": 120.0
+  },
+  "programId": "computational-data-science-bs",
+  "schema_version": 1,
+  "seasons": [
+    "F",
+    "P"
+  ],
+  "source": "catalog_plan_of_study_grid",
+  "terms": [
+    {
+      "index": 1,
+      "items": [
+        {
+          "code": "MATH 1210",
+          "credits": 4.0,
+          "kind": "course",
+          "title": "Calculus I"
+        },
+        {
+          "code": "CS 1400",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Fundamentals of Programming"
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Introduction to Academic Writing or Foundations of Academic Writing",
+          "options": [
+            "ENGL 1010",
+            "ENGL 1005"
+          ]
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        }
+      ],
+      "label": "Semester 1",
+      "printedCredits": 16.0,
+      "year": "First Year"
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "code": "ENGL 2010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Intermediate Academic Writing"
+        },
+        {
+          "code": "MATH 1220",
+          "credits": 4.0,
+          "kind": "course",
+          "title": "Calculus II"
+        },
+        {
+          "code": "MATH 2270",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Linear Algebra"
+        },
+        {
+          "code": "CS 1410",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Object Oriented Programming"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        }
+      ],
+      "label": "Semester 2",
+      "printedCredits": 16.0,
+      "year": "First Year"
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "code": "CS 2300",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Discrete Mathematical Structures I"
+        },
+        {
+          "code": "CS 2420",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Introduction to Algorithms and Data Structures"
+        },
+        {
+          "code": "MATH 2210",
+          "credits": 4.0,
+          "kind": "course",
+          "title": "Calculus III"
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Applied Probability and Statistics for Engineers and Scientists or Introduction to Statistical Methods",
+          "options": [
+            "ECE 3710",
+            "STAT 2050"
+          ]
+        }
+      ],
+      "label": "Semester 3",
+      "printedCredits": 13.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "code": "CS 2450",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Software Engineering"
+        },
+        {
+          "code": "CS 2700",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Causal Inference"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CDS Elective",
+          "slot": "@CDS_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        }
+      ],
+      "label": "Semester 4",
+      "printedCredits": 15.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 5,
+      "items": [
+        {
+          "code": "CS 3270",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Python Software Development"
+        },
+        {
+          "code": "CS 3310",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Analysis of Algorithms"
+        },
+        {
+          "code": "CS 3520",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Database Theory"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CDS Elective",
+          "slot": "@CDS_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        }
+      ],
+      "label": "Semester 5",
+      "printedCredits": 15.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 6,
+      "items": [
+        {
+          "code": "CS 2900",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Data Privacy and Security"
+        },
+        {
+          "code": "CS 3530",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Data Management For Data Sciences"
+        },
+        {
+          "code": "CS 3820",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Visualization Analytics for Data Science"
+        },
+        {
+          "code": "MATH 3640",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Introduction to Optimization"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CDS Elective",
+          "slot": "@CDS_ELECTIVE"
+        }
+      ],
+      "label": "Semester 6",
+      "printedCredits": 15.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 7,
+      "items": [
+        {
+          "code": "CS 3800",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Data Science Through Statistical Reasoning"
+        },
+        {
+          "code": "CS 4700",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Machine Learning"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CDS Elective",
+          "slot": "@CDS_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CDS Elective",
+          "slot": "@CDS_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE",
+          "slot": "@GE"
+        }
+      ],
+      "label": "Semester 7",
+      "printedCredits": 15.0,
+      "year": "Fourth Year"
+    },
+    {
+      "index": 8,
+      "items": [
+        {
+          "code": "CS 4800",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Data Science Capstone"
+        },
+        {
+          "code": "CS 4710",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Deep Learning"
+        },
+        {
+          "code": "CS 3050G",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Global Social and Ethical Issues in Computing"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CDS Senior Elective",
+          "slot": "@CDS_SENIOR_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "CDS Elective",
+          "slot": "@CDS_ELECTIVE"
+        }
+      ],
+      "label": "Semester 8",
+      "printedCredits": 15.0,
+      "year": "Fourth Year"
+    }
+  ],
+  "variant": 0,
+  "variants": 1
+}

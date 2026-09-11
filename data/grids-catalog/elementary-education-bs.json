@@ -1,0 +1,361 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_courseleaf",
+    "adapter_version": "1.0.0",
+    "source": "catalog_plan_of_study_grid"
+  },
+  "meta": {
+    "degree": "B.S.",
+    "name": "Elementary Education",
+    "title": "Elementary Education, B.S.",
+    "totalCredits": 120.0
+  },
+  "programId": "elementary-education-bs",
+  "schema_version": 1,
+  "seasons": [
+    "F",
+    "P"
+  ],
+  "source": "catalog_plan_of_study_grid",
+  "terms": [
+    {
+      "index": 1,
+      "items": [
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Introduction to Academic Writing or Foundations of Academic Writing",
+          "options": [
+            "ENGL 1010",
+            "ENGL 1005"
+          ]
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Complete one of the following:",
+          "options": [
+            "MATH 1050",
+            "MATH 1055",
+            "MATH 2000"
+          ],
+          "slot": "@COMPLETE_ONE_OF_THE_FOLLOWING"
+        },
+        {
+          "code": "EDEL 1010",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Introduction to Education 2"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Humanities Distribution",
+          "slot": "@HUMANITIES_DISTRIBUTION"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Elective",
+          "slot": "@ELECTIVE"
+        }
+      ],
+      "label": "Semester 1",
+      "printedCredits": 14.0,
+      "year": "First Year"
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "code": "ENGL 2010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Intermediate Academic Writing"
+        },
+        {
+          "code": "MATH 2010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Mathematics for Elementary Teachers I 3"
+        },
+        {
+          "code": "EDEL 2330",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Childrens Literature 2"
+        },
+        {
+          "code": "HLSC 2900",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Health Education for Elementary Teachers 2"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Physical Science Distribution",
+          "slot": "@PHYSICAL_SCIENCE_DISTRIBUTION"
+        },
+        {
+          "credits": 2.0,
+          "kind": "slot",
+          "label": "Elective",
+          "slot": "@ELECTIVE"
+        }
+      ],
+      "label": "Semester 2",
+      "printedCredits": 16.0,
+      "year": "First Year"
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "code": "MATH 2020",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Mathematics for Elementary Teachers II 3"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "US Institutions",
+          "slot": "@US_INSTITUTIONS"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Fine Art Distribution",
+          "slot": "@FINE_ART_DISTRIBUTION"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Personal, Professional, and Civic Growth",
+          "slot": "@PERSONAL_PROFESSIONAL_AND_CIVIC_GROWTH"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Elective",
+          "slot": "@ELECTIVE"
+        }
+      ],
+      "label": "Semester 3",
+      "printedCredits": 15.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "code": "EDEL 2200",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Introduction to Educational Technology 2"
+        },
+        {
+          "code": "EDEL 2400G",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Exceptional Students 2"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Social/Behavioral Science Distribution 4",
+          "slot": "@SOCIAL_BEHAVIORAL_SCIENCE_DISTRIBUTION_4"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Biology Distribution",
+          "slot": "@BIOLOGY_DISTRIBUTION"
+        },
+        {
+          "credits": 4.0,
+          "kind": "slot",
+          "label": "Elective",
+          "slot": "@ELECTIVE"
+        }
+      ],
+      "label": "Semester 4",
+      "printedCredits": 15.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 5,
+      "items": [
+        {
+          "code": "EDEL 3000",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Educational Psychology"
+        },
+        {
+          "code": "EDEL 3100",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Early Childhood Principles and Practices"
+        },
+        {
+          "code": "EDEL 3325",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Elementary Assessment"
+        },
+        {
+          "code": "PETE 3150",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Elementary Physical Education"
+        },
+        {
+          "code": "EDEL 3350",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Instructional Design"
+        },
+        {
+          "code": "EDEL 4200",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Elementary Learning Environments I"
+        },
+        {
+          "code": "EDEL 4400",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Elementary Literacy Instruction and Assessment I"
+        }
+      ],
+      "label": "Semester 5",
+      "printedCredits": 16.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 6,
+      "items": [
+        {
+          "code": "EDEL 3250G",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Equitable Technology Integration"
+        },
+        {
+          "code": "EDEL 3300G",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Diversity in Classroom Communities"
+        },
+        {
+          "code": "EDEL 4210",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Elementary Learning Environments II"
+        },
+        {
+          "code": "EDEL 4410",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Elementary Literacy Instruction and Assessment II"
+        },
+        {
+          "code": "EDEL 4430G",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Teaching Methods for Multilingual Learners"
+        },
+        {
+          "code": "EDEL 4510",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Elementary Mathematics Instruction and Assessment I"
+        },
+        {
+          "code": "EDEL 4530",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Elementary Social Studies Instruction and Assessment"
+        }
+      ],
+      "label": "Semester 6",
+      "printedCredits": 17.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 7,
+      "items": [
+        {
+          "code": "EDEL 4230",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Elementary Learning Environments III"
+        },
+        {
+          "code": "EDEL 4420",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Elementary Language Arts Instruction and Assessment"
+        },
+        {
+          "code": "EDEL 4520",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Elementary Science Instruction and Assessment"
+        },
+        {
+          "code": "EDEL 4540",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Elementary Fine Arts Instruction and Assessment"
+        },
+        {
+          "code": "EDEL 4550",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Elementary Mathematics Instruction and Assessment II"
+        },
+        {
+          "code": "EDEL 4620",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Differentiation for Academic Diversity"
+        }
+      ],
+      "label": "Semester 7",
+      "printedCredits": 15.0,
+      "year": "Fourth Year"
+    },
+    {
+      "index": 8,
+      "items": [
+        {
+          "code": "EDEL 4240",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Elementary Learning Environments IV"
+        },
+        {
+          "code": "EDEL 4880",
+          "credits": 8.0,
+          "kind": "course",
+          "title": "Student Teaching--Grades K-6"
+        },
+        {
+          "code": "EDEL 4990",
+          "credits": 2.0,
+          "kind": "course",
+          "title": "Teacher Assessment Project"
+        }
+      ],
+      "label": "Semester 8",
+      "printedCredits": 12.0,
+      "year": "Fourth Year"
+    }
+  ],
+  "variant": 0,
+  "variants": 1
+}

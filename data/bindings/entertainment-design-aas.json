@@ -1,0 +1,60 @@
+{
+  "bindings": [],
+  "blockTotals": [],
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "grid_requirement_binding",
+    "adapter_version": "1.0.0",
+    "as_of": "2026-09-06",
+    "notes": [
+      "Derived from credits and counts, not from label similarity. A slot the arithmetic does not settle is reported, not guessed."
+    ],
+    "source": "grid_requirement_binding"
+  },
+  "programId": "entertainment-design-aas",
+  "schema_version": 1,
+  "summary": {
+    "blocksNotAddingUp": 0,
+    "bound": 0,
+    "slots": 5,
+    "unboundRequirements": 1,
+    "unboundSlots": 5
+  },
+  "unbound": {
+    "requirements": [
+      {
+        "credits": 3.0,
+        "label": "3 credits of any other GE distribution course",
+        "requirement": "r.0.3",
+        "type": "CreditsFrom"
+      }
+    ],
+    "slots": [
+      {
+        "credits": 3.0,
+        "label": "Free Elective (1000+)",
+        "slot": "g4.0"
+      },
+      {
+        "credits": 3.0,
+        "label": "Free Elective (1000+)",
+        "slot": "g4.1"
+      },
+      {
+        "credits": 3.0,
+        "label": "Free Elective (1000+)",
+        "slot": "g4.2"
+      },
+      {
+        "credits": 3.0,
+        "label": "Free Elective (1000+)",
+        "slot": "g4.3"
+      },
+      {
+        "credits": 3.0,
+        "label": "GE distribution",
+        "slot": "g4.4"
+      }
+    ]
+  }
+}

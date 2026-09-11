@@ -1,0 +1,177 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_requirements",
+    "adapter_version": "1.0.0"
+  },
+  "programId": "entertainment-design-aas",
+  "requirements": {
+    "of": [
+      {
+        "credits": 12.0,
+        "label": "General Education Requirements",
+        "of": [
+          {
+            "of": [
+              {
+                "code": "ENGL 1010",
+                "credits": 3.0,
+                "title": "Introduction to Academic Writing",
+                "type": "Course"
+              },
+              {
+                "code": "ENGL 1005",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "ENGL 2010",
+            "credits": 3.0,
+            "title": "Intermediate Academic Writing",
+            "type": "Course"
+          },
+          {
+            "credits": 3.0,
+            "label": "Complete one of the following: (Note: A higher level MATH course may substitute for this requirement)",
+            "of": [
+              {
+                "code": "MAT 1030",
+                "title": "Quantitative Reasoning (3)",
+                "type": "Course"
+              },
+              {
+                "code": "MAT 1035",
+                "title": "Quantitative Reasoning with Integrated Algebra (6)",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "credits": 3.0,
+            "label": "3 credits of any other GE distribution course",
+            "n": 3,
+            "type": "CreditsFrom"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 36.0,
+        "label": "Entertainment Design (Core)",
+        "of": [
+          {
+            "code": "ART 1120",
+            "credits": 3.0,
+            "title": "2D Design",
+            "type": "Course"
+          },
+          {
+            "code": "ART 1210",
+            "credits": 3.0,
+            "title": "Observational Drawing",
+            "type": "Course"
+          },
+          {
+            "code": "ART 1220",
+            "credits": 3.0,
+            "title": "Perspective Drawing",
+            "type": "Course"
+          },
+          {
+            "label": "AAS Portfolio Review",
+            "type": "Milestone"
+          },
+          {
+            "code": "ART 1400",
+            "credits": 3.0,
+            "title": "Graphic Computer Applications",
+            "type": "Course"
+          },
+          {
+            "code": "ART 2220",
+            "credits": 3.0,
+            "title": "Imagination and Visual Literacy",
+            "type": "Course"
+          },
+          {
+            "code": "ART 2240",
+            "credits": 3.0,
+            "title": "Illustrative Media and Techniques II",
+            "type": "Course"
+          },
+          {
+            "code": "ART 2250",
+            "credits": 3.0,
+            "title": "Gestural Drawing",
+            "type": "Course"
+          },
+          {
+            "code": "ART 2260",
+            "credits": 3.0,
+            "title": "Digital Painting I",
+            "type": "Course"
+          },
+          {
+            "code": "ART 2270",
+            "credits": 3.0,
+            "title": "Figure Drawing I",
+            "type": "Course"
+          },
+          {
+            "code": "ART 2280",
+            "credits": 3.0,
+            "title": "3D Modeling",
+            "type": "Course"
+          },
+          {
+            "code": "ART 2440",
+            "credits": 3.0,
+            "title": "Motion Graphics I",
+            "type": "Course"
+          },
+          {
+            "of": [
+              {
+                "code": "ARTH 2710",
+                "credits": 3.0,
+                "title": "Prehistoric Through Gothic Art History",
+                "type": "Course"
+              },
+              {
+                "code": "ARTH 2720G",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 12.0,
+        "label": "Elective Requirements",
+        "of": [
+          {
+            "credits": 12.0,
+            "label": "Complete courses at any level 1000+",
+            "levels": [
+              1000
+            ],
+            "minLevel": 1000,
+            "subject": "LEVEL",
+            "type": "Pool"
+          }
+        ],
+        "type": "AllOf"
+      }
+    ],
+    "type": "AllOf"
+  },
+  "schema_version": 1,
+  "source": "catalog_requirements_table",
+  "title": "Entertainment Design, A.A.S.",
+  "totalCredits": 60.0
+}

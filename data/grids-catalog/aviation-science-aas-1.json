@@ -1,0 +1,168 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_courseleaf",
+    "adapter_version": "1.0.0",
+    "source": "catalog_plan_of_study_grid"
+  },
+  "meta": {
+    "degree": "A.A.S.",
+    "name": "Aviation Science",
+    "title": "Aviation Science, A.A.S.",
+    "totalCredits": 63.0
+  },
+  "programId": "aviation-science-aas",
+  "schema_version": 1,
+  "seasons": [
+    "F",
+    "P"
+  ],
+  "source": "catalog_plan_of_study_grid",
+  "terms": [
+    {
+      "index": 1,
+      "items": [
+        {
+          "code": "AVSC 1010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Survey of Aviation Science"
+        },
+        {
+          "code": "ENGL 1010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Introduction to Academic Writing"
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "",
+          "options": [
+            "MAT 1030",
+            "MAT 1035"
+          ]
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Social/Behavioral Science",
+          "slot": "@SOCIAL_BEHAVIORAL_SCIENCE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE Distribution",
+          "slot": "@GE_DISTRIBUTION"
+        }
+      ],
+      "label": "Semester 1",
+      "printedCredits": 15.0,
+      "year": "First Year"
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "code": "AVSC 1100",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Ground I - Private"
+        },
+        {
+          "code": "AVSC 1110",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Flight I - Private"
+        },
+        {
+          "code": "AVSC 2110",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Aviation Weather"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE Distribution",
+          "slot": "@GE_DISTRIBUTION"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "GE Distribution",
+          "slot": "@GE_DISTRIBUTION"
+        }
+      ],
+      "label": "Semester 2",
+      "printedCredits": 15.0,
+      "year": "First Year"
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "code": "AVSC 1240",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Ground II - Instrument"
+        },
+        {
+          "code": "AVSC 1250",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Flight II - Instrument II"
+        },
+        {
+          "code": "AVSC 2070",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Communications for Aviation Professionals"
+        },
+        {
+          "code": "AVSC 2130",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Aviation Safety"
+        },
+        {
+          "code": "AVSC 2150",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Air Transportation Management"
+        }
+      ],
+      "label": "Semester 3",
+      "printedCredits": 15.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "code": "AVSC 2300",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Ground IV - Commercial"
+        },
+        {
+          "code": "AVSC 2310",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Flight IV - Commercial"
+        },
+        {
+          "credits": 12.0,
+          "kind": "slot",
+          "label": "Elective Credits",
+          "slot": "@ELECTIVE_CREDITS"
+        }
+      ],
+      "label": "Semester 4",
+      "printedCredits": 18.0,
+      "year": "Second Year"
+    }
+  ],
+  "variant": 0,
+  "variants": 2
+}

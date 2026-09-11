@@ -1,0 +1,125 @@
+{
+  "bindings": [
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Biology Distribution",
+      "requirement": "r.2.5",
+      "slot": "g3.1"
+    },
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Humanities Distribution",
+      "requirement": "r.2.7",
+      "slot": "g3.3"
+    },
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Personal, Professional, & Civic Growth Distribution",
+      "requirement": "r.2.8",
+      "slot": "g4.0"
+    },
+    {
+      "basis": "same name and credits",
+      "confidence": "high",
+      "label": "Social/Behavioral Science Distribution",
+      "requirement": "r.2.9",
+      "slot": "g4.1"
+    },
+    {
+      "basis": "1 slots against the 1 open requirements of Free Elective Requirement, credits agreeing",
+      "confidence": "high",
+      "label": "Successful completion of at least two free elective credits, 1000 or above, required for graduation",
+      "requirement": "r.5.0",
+      "slot": "g7.7"
+    }
+  ],
+  "blockTotals": [
+    {
+      "block": "Theatre Arts Requirements",
+      "parsed": 0,
+      "printed": 60.0
+    }
+  ],
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "grid_requirement_binding",
+    "adapter_version": "1.0.0",
+    "as_of": "2026-09-06",
+    "notes": [
+      "Derived from credits and counts, not from label similarity. A slot the arithmetic does not settle is reported, not guessed."
+    ],
+    "source": "grid_requirement_binding"
+  },
+  "programId": "theatre-arts-musical-theatre-bfa",
+  "schema_version": 1,
+  "summary": {
+    "blocksNotAddingUp": 1,
+    "bound": 5,
+    "slots": 11,
+    "unboundRequirements": 4,
+    "unboundSlots": 6
+  },
+  "unbound": {
+    "requirements": [
+      {
+        "credits": 2.0,
+        "label": "2 additional credits of DANC courses",
+        "requirement": "r.1.21",
+        "type": "CreditsFrom"
+      },
+      {
+        "credits": 3.0,
+        "label": "Complete one of the following:",
+        "requirement": "r.2.3",
+        "type": "OneOf"
+      },
+      {
+        "credits": 3.0,
+        "label": "Physical Science Distribution Students in the Sound track of the BFA Theatre Design & Production Emphasis are strongly recommended to take PHYS 1700 Physics of Sound",
+        "requirement": "r.2.6",
+        "type": "Slot"
+      },
+      {
+        "credits": 4.0,
+        "label": "Complete 4 credits of any THEA, MUSC, DANC, or ART course 1000 level or higher",
+        "requirement": "r.4.0",
+        "type": "CreditsFrom"
+      }
+    ],
+    "slots": [
+      {
+        "credits": 3.0,
+        "label": "Physical Science Distribution",
+        "slot": "g2.2"
+      },
+      {
+        "credits": 3.0,
+        "label": "American Institutions Distribution",
+        "slot": "g3.0"
+      },
+      {
+        "credits": 1.0,
+        "label": "DANC Elective Course",
+        "slot": "g3.2"
+      },
+      {
+        "credits": 3.0,
+        "label": "THEA Elective course",
+        "slot": "g4.5"
+      },
+      {
+        "credits": 1.0,
+        "label": "Dance Elective",
+        "slot": "g6.6"
+      },
+      {
+        "credits": 1.0,
+        "label": "DANC Elective Course",
+        "slot": "g7.6"
+      }
+    ]
+  }
+}

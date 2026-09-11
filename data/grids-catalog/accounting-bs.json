@@ -1,0 +1,346 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_courseleaf",
+    "adapter_version": "1.0.0",
+    "source": "catalog_plan_of_study_grid"
+  },
+  "meta": {
+    "degree": "B.S.",
+    "name": "Accounting",
+    "title": "Accounting, B.S.",
+    "totalCredits": 120.0
+  },
+  "programId": "accounting-bs",
+  "schema_version": 1,
+  "seasons": [
+    "F",
+    "P"
+  ],
+  "source": "catalog_plan_of_study_grid",
+  "terms": [
+    {
+      "index": 1,
+      "items": [
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "American Institutions",
+          "slot": "@AMERICAN_INSTITUTIONS"
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Introduction to Academic Writing or Foundations of Academic Writing",
+          "options": [
+            "ENGL 1010",
+            "ENGL 1005"
+          ]
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "FINE ART",
+          "slot": "@FINE_ART"
+        },
+        {
+          "credits": 2.0,
+          "kind": "slot",
+          "label": "General Elective",
+          "slot": "@GENERAL_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "choice",
+          "label": "Complete one of the following:",
+          "options": [
+            "MATH 1050",
+            "MATH 1055",
+            "MATH 1090"
+          ],
+          "slot": "@COMPLETE_ONE_OF_THE_FOLLOWING"
+        }
+      ],
+      "label": "Semester 1",
+      "printedCredits": 14.0,
+      "year": "First Year"
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "code": "ECON 2010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Principles of Economics I"
+        },
+        {
+          "code": "MGMT 2240",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Business Quantitative Analysis"
+        },
+        {
+          "code": "ENGL 2010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Intermediate Academic Writing"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "HUMANITIES",
+          "slot": "@HUMANITIES"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "PHYSICAL SCIENCE",
+          "slot": "@PHYSICAL_SCIENCE"
+        }
+      ],
+      "label": "Semester 2",
+      "printedCredits": 15.0,
+      "year": "First Year"
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "code": "ACC 2110",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Principles of Accounting I"
+        },
+        {
+          "code": "ACC 2600",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Business Law and Ethics"
+        },
+        {
+          "code": "MGMT 2400",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Data Analytics for Business"
+        },
+        {
+          "code": "MKTG 2200G",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Written Business Communication"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "BIOLOGY",
+          "slot": "@BIOLOGY"
+        }
+      ],
+      "label": "Semester 3",
+      "printedCredits": 15.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "code": "ACC 2115",
+          "credits": 1.0,
+          "kind": "course",
+          "title": "Introduction to the Accounting Profession"
+        },
+        {
+          "code": "ACC 2120",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Principles of Accounting II"
+        },
+        {
+          "code": "ACC 2250",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "QuickBooks and Small Business Accounting"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "SOCIAL SCIENCE",
+          "slot": "@SOCIAL_SCIENCE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "PERSONAL, PROFESSIONAL, and CIVIC GROWTH",
+          "slot": "@PERSONAL_PROFESSIONAL_AND_CIVIC_GROWTH"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "General Elective",
+          "slot": "@GENERAL_ELECTIVE"
+        }
+      ],
+      "label": "Semester 4",
+      "printedCredits": 16.0,
+      "year": "Second Year"
+    },
+    {
+      "index": 5,
+      "items": [
+        {
+          "code": "ACC 3010",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Intermediate Accounting I"
+        },
+        {
+          "code": "ACC 3250",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Advanced QuickBooks and Industry Accounting"
+        },
+        {
+          "code": "ACC 3300",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Cost Management"
+        },
+        {
+          "code": "ACC 3400",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Fundamentals of Taxation"
+        },
+        {
+          "code": "MGMT 2340",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Business Statistics I"
+        }
+      ],
+      "label": "Semester 5",
+      "printedCredits": 15.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 6,
+      "items": [
+        {
+          "code": "ACC 3020",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Intermediate Accounting II"
+        },
+        {
+          "code": "ACC 3510",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Accounting Information Systems"
+        },
+        {
+          "code": "ACC 3710",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Auditing"
+        },
+        {
+          "code": "MGMT 3450",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Operations Management"
+        },
+        {
+          "code": "MKTG 2390",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Professional Business Presentations"
+        }
+      ],
+      "label": "Semester 6",
+      "printedCredits": 15.0,
+      "year": "Third Year"
+    },
+    {
+      "index": 7,
+      "items": [
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Accounting Elective",
+          "slot": "@ACCOUNTING_ELECTIVE"
+        },
+        {
+          "code": "FIN 3100",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Principles of Finance"
+        },
+        {
+          "credits": 1.0,
+          "kind": "choice",
+          "label": "Executive Lecture Series or Entrepreneurship Lecture Series",
+          "options": [
+            "MGMT 2950R",
+            "ENTR 2930R"
+          ]
+        },
+        {
+          "code": "MGMT 3000",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Organizational Behavior"
+        },
+        {
+          "code": "MKTG 3600",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Principles of Marketing"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "General Elective",
+          "slot": "@GENERAL_ELECTIVE"
+        }
+      ],
+      "label": "Semester 7",
+      "printedCredits": 16.0,
+      "year": "Fourth Year"
+    },
+    {
+      "index": 8,
+      "items": [
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Accounting Elective",
+          "slot": "@ACCOUNTING_ELECTIVE"
+        },
+        {
+          "credits": 3.0,
+          "kind": "slot",
+          "label": "Accounting Elective",
+          "slot": "@ACCOUNTING_ELECTIVE"
+        },
+        {
+          "code": "MGMT 4860",
+          "credits": 3.0,
+          "kind": "course",
+          "title": "Business Strategy Formulation and Implementation"
+        },
+        {
+          "credits": 5.0,
+          "kind": "slot",
+          "label": "General Elective (Any course numbered 1000 or higher)",
+          "slot": "@GENERAL_ELECTIVE_ANY_COURSE_NUMBERED_1000_OR_HIGHER"
+        }
+      ],
+      "label": "Semester 8",
+      "printedCredits": 14.0,
+      "year": "Fourth Year"
+    }
+  ],
+  "variant": 0,
+  "variants": 1
+}

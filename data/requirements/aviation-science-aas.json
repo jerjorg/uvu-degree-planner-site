@@ -1,0 +1,195 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_requirements",
+    "adapter_version": "1.0.0"
+  },
+  "programId": "aviation-science-aas",
+  "requirements": {
+    "of": [
+      {
+        "credits": 18.0,
+        "label": "General Education Requirements",
+        "of": [
+          {
+            "of": [
+              {
+                "code": "ENGL 1010",
+                "credits": 3.0,
+                "title": "Introduction to Academic Writing",
+                "type": "Course"
+              },
+              {
+                "code": "ENGL 1005",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "credits": 3.0,
+            "label": "Complete one of the following:",
+            "of": [
+              {
+                "code": "MAT 1030",
+                "title": "Quantitative Reasoning (3)",
+                "type": "Course"
+              },
+              {
+                "code": "MAT 1035",
+                "title": "Quantitative Reasoning with Integrated Algebra (6)",
+                "type": "Course"
+              },
+              {
+                "code": "STAT 1040",
+                "title": "Introduction to Statistics (3)",
+                "type": "Course"
+              },
+              {
+                "code": "STAT 1045",
+                "title": "Introduction to Statistics with Algebra (5)",
+                "type": "Course"
+              },
+              {
+                "code": "MATH 1055",
+                "title": "College Algebra with Preliminaries (5)",
+                "type": "Course"
+              },
+              {
+                "code": "MATH 1090",
+                "title": "College Algebra for Business (3)",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "credits": 3.0,
+            "label": "Social/Behavioral Science",
+            "slot": "@SOCIAL_BEHAVIORAL_SCIENCE",
+            "type": "Slot"
+          },
+          {
+            "credits": 9.0,
+            "label": "Complete three courses with no more than one from any of the following GE distributions:",
+            "maxPerGroup": 1,
+            "n": 3,
+            "of": [
+              {
+                "group": true,
+                "label": "American Institutions 1",
+                "type": "AllOf"
+              },
+              {
+                "group": true,
+                "label": "Physical Science",
+                "type": "AllOf"
+              },
+              {
+                "group": true,
+                "label": "Personal, Professional, and Civic Growth",
+                "type": "AllOf"
+              },
+              {
+                "group": true,
+                "label": "Humanities Distribution",
+                "type": "AllOf"
+              },
+              {
+                "group": true,
+                "label": "Fine Arts Distribution",
+                "type": "AllOf"
+              }
+            ],
+            "type": "NOf"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 45.0,
+        "label": "Discipline Core Requirements",
+        "of": [
+          {
+            "code": "AVSC 1010",
+            "credits": 3.0,
+            "title": "Survey of Aviation Science",
+            "type": "Course"
+          },
+          {
+            "code": "AVSC 1100",
+            "credits": 3.0,
+            "title": "Ground I - Private",
+            "type": "Course"
+          },
+          {
+            "code": "AVSC 1110",
+            "credits": 3.0,
+            "title": "Flight I - Private",
+            "type": "Course"
+          },
+          {
+            "code": "AVSC 1240",
+            "credits": 3.0,
+            "title": "Ground II - Instrument",
+            "type": "Course"
+          },
+          {
+            "code": "AVSC 1250",
+            "credits": 3.0,
+            "title": "Flight II - Instrument II",
+            "type": "Course"
+          },
+          {
+            "code": "AVSC 2070",
+            "credits": 3.0,
+            "title": "Communications for Aviation Professionals",
+            "type": "Course"
+          },
+          {
+            "code": "AVSC 2110",
+            "credits": 3.0,
+            "title": "Aviation Weather",
+            "type": "Course"
+          },
+          {
+            "code": "AVSC 2130",
+            "credits": 3.0,
+            "title": "Aviation Safety",
+            "type": "Course"
+          },
+          {
+            "code": "AVSC 2150",
+            "credits": 3.0,
+            "title": "Air Transportation Management",
+            "type": "Course"
+          },
+          {
+            "code": "AVSC 2300",
+            "credits": 3.0,
+            "title": "Ground IV - Commercial",
+            "type": "Course"
+          },
+          {
+            "code": "AVSC 2310",
+            "credits": 3.0,
+            "title": "Flight IV - Commercial",
+            "type": "Course"
+          },
+          {
+            "credits": 12.0,
+            "label": "Elective Credits",
+            "slot": "@ELECTIVE_CREDITS",
+            "type": "Slot"
+          }
+        ],
+        "type": "AllOf"
+      }
+    ],
+    "type": "AllOf"
+  },
+  "schema_version": 1,
+  "source": "catalog_requirements_table",
+  "title": "Aviation Science, A.A.S.",
+  "totalCredits": 63.0
+}

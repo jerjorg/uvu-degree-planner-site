@@ -1,0 +1,81 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_requirements",
+    "adapter_version": "1.0.0"
+  },
+  "programId": "accounting-undergraduate-certificate",
+  "requirements": {
+    "of": [
+      {
+        "credits": 16.0,
+        "label": "Discipline Core Requirements",
+        "of": [
+          {
+            "credits": 3.0,
+            "label": "Complete one of the following: 1",
+            "of": [
+              {
+                "code": "ACC 2110",
+                "title": "Principles of Accounting I (3)",
+                "type": "Course"
+              },
+              {
+                "combined": true,
+                "label": "Financial Accounting I and Financial Accounting II (2)",
+                "of": [
+                  {
+                    "code": "ACC 1110",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "ACC 1120",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "ACC 2115",
+            "credits": 1.0,
+            "title": "Introduction to the Accounting Profession 2",
+            "type": "Course"
+          },
+          {
+            "code": "ACC 2120",
+            "credits": 3.0,
+            "title": "Principles of Accounting II 2 & 3",
+            "type": "Course"
+          },
+          {
+            "code": "ACC 2250",
+            "credits": 3.0,
+            "title": "QuickBooks and Small Business Accounting",
+            "type": "Course"
+          },
+          {
+            "code": "ACC 2600",
+            "credits": 3.0,
+            "title": "Business Law and Ethics",
+            "type": "Course"
+          },
+          {
+            "code": "MGMT 2400",
+            "credits": 3.0,
+            "title": "Data Analytics for Business",
+            "type": "Course"
+          }
+        ],
+        "type": "AllOf"
+      }
+    ],
+    "type": "AllOf"
+  },
+  "schema_version": 1,
+  "source": "catalog_requirements_table",
+  "title": "Accounting, Undergraduate Certificate",
+  "totalCredits": 16.0
+}

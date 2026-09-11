@@ -1,0 +1,339 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_requirements",
+    "adapter_version": "1.0.0"
+  },
+  "programId": "nursing-asn",
+  "requirements": {
+    "of": [
+      {
+        "credits": 0.0,
+        "label": "Matriculation Requirements",
+        "of": [
+          {
+            "label": "Acceptance into Nursing program (see Advisor)",
+            "type": "Milestone"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 20.0,
+        "label": "General Education Requirements",
+        "of": [
+          {
+            "of": [
+              {
+                "code": "ENGL 1010",
+                "credits": 3.0,
+                "title": "Introduction to Academic Writing",
+                "type": "Course"
+              },
+              {
+                "code": "ENGL 1005",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "ENGL 2010",
+            "credits": 3.0,
+            "title": "Intermediate Academic Writing",
+            "type": "Course"
+          },
+          {
+            "credits": 3.0,
+            "label": "Complete one of the following:",
+            "of": [
+              {
+                "code": "MAT 1030",
+                "title": "Quantitative Reasoning (3)",
+                "type": "Course"
+              },
+              {
+                "code": "MAT 1035",
+                "title": "Quantitative Reasoning with Integrated Algebra (6)",
+                "type": "Course"
+              },
+              {
+                "code": "STAT 1040",
+                "title": "Introduction to Statistics (3)",
+                "type": "Course"
+              },
+              {
+                "code": "STAT 1045",
+                "title": "Introduction to Statistics with Algebra (5)",
+                "type": "Course"
+              },
+              {
+                "code": "MATH 1050",
+                "title": "College Algebra (4)",
+                "type": "Course"
+              },
+              {
+                "code": "MATH 1055",
+                "title": "College Algebra with Preliminaries (5)",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "label": "Complete the following:",
+            "type": "AllOf"
+          },
+          {
+            "code": "PSY 1100",
+            "credits": 3.0,
+            "title": "Human Development Life Span",
+            "type": "Course"
+          },
+          {
+            "code": "BIOL 1610",
+            "credits": 4.0,
+            "title": "College Biology I",
+            "type": "Course"
+          },
+          {
+            "code": "CHEM 1110",
+            "credits": 4.0,
+            "title": "Elementary Chemistry for the Health Sciences",
+            "type": "Course"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 51.0,
+        "label": "Discipline Core Requirements",
+        "of": [
+          {
+            "code": "NUTR 1020",
+            "credits": 3.0,
+            "minGrade": "B-",
+            "title": "Foundations of Human Nutrition",
+            "type": "Course"
+          },
+          {
+            "code": "MICR 2060",
+            "credits": 3.0,
+            "minGrade": "B-",
+            "title": "Microbiology for Health Professions",
+            "type": "Course"
+          },
+          {
+            "code": "MICR 2065",
+            "credits": 1.0,
+            "minGrade": "B-",
+            "title": "Microbiology for Health Professions Laboratory",
+            "type": "Course"
+          },
+          {
+            "code": "ZOOL 2320",
+            "credits": 3.0,
+            "minGrade": "B-",
+            "title": "Human Anatomy",
+            "type": "Course"
+          },
+          {
+            "code": "ZOOL 2325",
+            "credits": 1.0,
+            "minGrade": "B-",
+            "title": "Human Anatomy Laboratory",
+            "type": "Course"
+          },
+          {
+            "code": "ZOOL 2420",
+            "credits": 3.0,
+            "minGrade": "B-",
+            "title": "Human Physiology",
+            "type": "Course"
+          },
+          {
+            "code": "ZOOL 2425",
+            "credits": 1.0,
+            "minGrade": "B-",
+            "title": "Human Physiology Laboratory",
+            "type": "Course"
+          },
+          {
+            "code": "NURS 3330",
+            "credits": 2.0,
+            "minGrade": "B-",
+            "title": "Nursing Care of Individuals with Complex Health Needs",
+            "type": "Course"
+          },
+          {
+            "code": "NURS 3400",
+            "credits": 1.0,
+            "minGrade": "B-",
+            "title": "Patient Care Coordination and Management",
+            "type": "Course"
+          },
+          {
+            "code": "NURS 3405",
+            "credits": 2.0,
+            "minGrade": "B-",
+            "title": "Patient Care Coordination and Management Preceptorship",
+            "type": "Course"
+          },
+          {
+            "code": "NURS 3440",
+            "credits": 2.0,
+            "minGrade": "B-",
+            "title": "Pharmacology for the Practicing Nurse",
+            "type": "Course"
+          },
+          {
+            "code": "NURS 3445",
+            "credits": 1.0,
+            "minGrade": "B-",
+            "title": "Nursing Practice Simulation and Skills Lab IV",
+            "type": "Course"
+          },
+          {
+            "credits": 28.0,
+            "label": "Choose one of the following tracks",
+            "minGrade": "B-",
+            "of": [
+              {
+                "group": true,
+                "label": "Direct RN Path",
+                "minGrade": "B-",
+                "of": [
+                  {
+                    "code": "NURS 2300",
+                    "minGrade": "B-",
+                    "title": "Nursing Health Assessment (2)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 2305",
+                    "minGrade": "B-",
+                    "title": "Nursing Health Assessment Laboratory (1)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 2310",
+                    "minGrade": "B-",
+                    "title": "Nursing Pharmacology (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 2320",
+                    "minGrade": "B-",
+                    "title": "Fundamentals of Nursing Care (2)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 2325",
+                    "minGrade": "B-",
+                    "title": "Nursing Practice Simulation and Skills Lab I (2)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 2410",
+                    "minGrade": "B-",
+                    "title": "Nursing Care of Adults with Common Health Needs (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 2415",
+                    "minGrade": "B-",
+                    "title": "Nursing Care of Adults with Common Health Needs Clinical (2)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 2420",
+                    "minGrade": "B-",
+                    "title": "Nursing Care of the Aging Population (2)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 2430",
+                    "minGrade": "B-",
+                    "title": "Mental Health Nursing (2)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 2435",
+                    "minGrade": "B-",
+                    "title": "Mental Health Nursing Clinical (1)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 3335",
+                    "minGrade": "B-",
+                    "title": "Nursing Care of Individuals with Complex Health Needs Clinical (2)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 3340",
+                    "minGrade": "B-",
+                    "title": "Nursing Care of Women Children and Developing Families (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 3345",
+                    "minGrade": "B-",
+                    "title": "Nursing Care of Women Children and Developing Families Clinical (1)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 2445",
+                    "minGrade": "B-",
+                    "title": "Nursing Practice Simulation and Skills Lab II (1)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 3355",
+                    "minGrade": "B-",
+                    "title": "Nursing Practice Simulation and Skills Lab III (1)",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "group": true,
+                "label": "LPN Track--For students with LPN licence",
+                "minGrade": "B-",
+                "type": "AllOf"
+              },
+              {
+                "group": true,
+                "label": "Students must bring in an LPN certificate",
+                "minGrade": "B-",
+                "of": [
+                  {
+                    "code": "NURS 2210",
+                    "minGrade": "B-",
+                    "title": "Practical Nurse to Registered Nurse (1)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "NURS 3365",
+                    "minGrade": "B-",
+                    "title": "LPN Simulation/Skills Lab and Clinical Experience (5)",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              }
+            ],
+            "ofGroups": true,
+            "type": "OneOf"
+          }
+        ],
+        "type": "AllOf"
+      }
+    ],
+    "type": "AllOf"
+  },
+  "schema_version": 1,
+  "source": "catalog_requirements_table",
+  "title": "Nursing, A.S.N.",
+  "totalCredits": 71.0
+}

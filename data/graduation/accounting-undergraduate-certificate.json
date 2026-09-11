@@ -1,0 +1,40 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_graduation",
+    "adapter_version": "1.0.0",
+    "source": "catalog_program_page"
+  },
+  "programId": "accounting-undergraduate-certificate",
+  "rules": [
+    {
+      "credits": 16,
+      "id": "min_total_credits",
+      "kind": "min_total_credits",
+      "text": "Completion of a minimum of 16 semester credits required for the Certificate."
+    },
+    {
+      "gpa": 2.5,
+      "id": "min_gpa",
+      "kind": "min_gpa",
+      "scope": "Woodbury School of Business courses",
+      "text": "Overall grade point average of 2.5 GPA in all Woodbury School of Business courses."
+    },
+    {
+      "grade": "C-",
+      "id": "min_grade",
+      "kind": "min_grade",
+      "scope": "core courses",
+      "text": "No grade lower than a \"C-\" in core courses."
+    },
+    {
+      "category": "business courses",
+      "credits": 4,
+      "id": "min_credits_at_institution_in_category",
+      "kind": "min_credits_at_institution_in_category",
+      "text": "Residency hours: Minimum of 4 credit hours of business courses through course attendance at UVU."
+    }
+  ],
+  "schema_version": 1,
+  "unparsed": []
+}

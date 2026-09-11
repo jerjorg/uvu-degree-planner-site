@@ -1,0 +1,427 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_requirements",
+    "adapter_version": "1.0.0"
+  },
+  "programId": "accounting-bs",
+  "requirements": {
+    "of": [
+      {
+        "code": "ACC 2110",
+        "credits": 3.0,
+        "minGrade": "C-",
+        "title": "Principles of Accounting I",
+        "type": "Course"
+      },
+      {
+        "credits": 30.0,
+        "label": "General Education Requirements",
+        "of": [
+          {
+            "of": [
+              {
+                "code": "ENGL 1010",
+                "credits": 3.0,
+                "title": "Introduction to Academic Writing",
+                "type": "Course"
+              },
+              {
+                "code": "ENGL 1005",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "ENGL 2010",
+            "credits": 3.0,
+            "title": "Intermediate Academic Writing",
+            "type": "Course"
+          },
+          {
+            "credits": 3.0,
+            "label": "Complete one of the following:",
+            "of": [
+              {
+                "code": "MATH 1050",
+                "title": "College Algebra (4)",
+                "type": "Course"
+              },
+              {
+                "code": "MATH 1055",
+                "title": "College Algebra with Preliminaries (5)",
+                "type": "Course"
+              },
+              {
+                "code": "MATH 1090",
+                "title": "College Algebra for Business (3)",
+                "type": "Course"
+              },
+              {
+                "group": true,
+                "label": "An Advanced Placement (AP) Calculus AB or BC Test with a score of 3 or higher",
+                "type": "AllOf"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "credits": 3.0,
+            "label": "Complete one of the following:",
+            "of": [
+              {
+                "combined": true,
+                "label": "US History to 1877 and US History since 1877 (6)",
+                "of": [
+                  {
+                    "code": "HIST 2700",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "HIST 2710",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "code": "HIST 1700",
+                "title": "American History (3)",
+                "type": "Course"
+              },
+              {
+                "code": "HIST 1740",
+                "title": "US Economic History (3)",
+                "type": "Course"
+              },
+              {
+                "code": "POLS 1000",
+                "title": "American Heritage (3)",
+                "type": "Course"
+              },
+              {
+                "code": "POLS 1100",
+                "title": "American National Government (3)",
+                "type": "Course"
+              },
+              {
+                "group": true,
+                "label": "Distribution Courses:",
+                "type": "AllOf"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "credits": 3.0,
+            "label": "Biology",
+            "slot": "@BIOLOGY",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Fine Arts Distribution",
+            "slot": "@FINE_ARTS_DISTRIBUTION",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Humanities Distribution",
+            "slot": "@HUMANITIES_DISTRIBUTION",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Physical Science",
+            "slot": "@PHYSICAL_SCIENCE",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Social Science",
+            "slot": "@SOCIAL_SCIENCE",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Personal, Professional, and Civic Growth",
+            "slot": "@PERSONAL_PROFESSIONAL_AND_CIVIC_GROWTH",
+            "type": "Slot"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 90.0,
+        "label": "Discipline Core Requirements",
+        "of": [
+          {
+            "credits": 3.0,
+            "label": "Complete one of the following: 1",
+            "of": [
+              {
+                "code": "ACC 2110",
+                "title": "Principles of Accounting I (3)",
+                "type": "Course"
+              },
+              {
+                "combined": true,
+                "label": "Financial Accounting I and Financial Accounting II (2)",
+                "of": [
+                  {
+                    "code": "ACC 1110",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "ACC 1120",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "ACC 2120",
+            "credits": 3.0,
+            "title": "Principles of Accounting II 2 & 3",
+            "type": "Course"
+          },
+          {
+            "code": "ECON 2010",
+            "credits": 3.0,
+            "title": "Principles of Economics I",
+            "type": "Course"
+          },
+          {
+            "code": "MGMT 2240",
+            "credits": 3.0,
+            "title": "Business Quantitative Analysis",
+            "type": "Course"
+          },
+          {
+            "code": "MGMT 2340",
+            "credits": 3.0,
+            "title": "Business Statistics I",
+            "type": "Course"
+          },
+          {
+            "code": "MGMT 2400",
+            "credits": 3.0,
+            "title": "Data Analytics for Business",
+            "type": "Course"
+          },
+          {
+            "code": "MKTG 2200G",
+            "credits": 3.0,
+            "title": "Written Business Communication",
+            "type": "Course"
+          },
+          {
+            "code": "MKTG 2390",
+            "credits": 3.0,
+            "title": "Professional Business Presentations",
+            "type": "Course"
+          },
+          {
+            "group": true,
+            "label": "Business Core Courses:",
+            "type": "AllOf"
+          },
+          {
+            "code": "FIN 3100",
+            "credits": 3.0,
+            "title": "Principles of Finance",
+            "type": "Course"
+          },
+          {
+            "code": "MGMT 3000",
+            "credits": 3.0,
+            "title": "Organizational Behavior",
+            "type": "Course"
+          },
+          {
+            "code": "MGMT 3450",
+            "credits": 3.0,
+            "title": "Operations Management",
+            "type": "Course"
+          },
+          {
+            "code": "MGMT 4860",
+            "credits": 3.0,
+            "title": "Business Strategy Formulation and Implementation",
+            "type": "Course"
+          },
+          {
+            "of": [
+              {
+                "code": "MGMT 2950R",
+                "credits": 1.0,
+                "title": "Executive Lecture Series",
+                "type": "Course"
+              },
+              {
+                "code": "ENTR 2930R",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "MKTG 3600",
+            "credits": 3.0,
+            "title": "Principles of Marketing",
+            "type": "Course"
+          },
+          {
+            "group": true,
+            "label": "Accounting Core Requirements",
+            "type": "AllOf"
+          },
+          {
+            "code": "ACC 2115",
+            "credits": 1.0,
+            "title": "Introduction to the Accounting Profession 3",
+            "type": "Course"
+          },
+          {
+            "code": "ACC 2250",
+            "credits": 3.0,
+            "title": "QuickBooks and Small Business Accounting",
+            "type": "Course"
+          },
+          {
+            "code": "ACC 2600",
+            "credits": 3.0,
+            "title": "Business Law and Ethics",
+            "type": "Course"
+          },
+          {
+            "code": "ACC 3010",
+            "credits": 3.0,
+            "title": "Intermediate Accounting I",
+            "type": "Course"
+          },
+          {
+            "code": "ACC 3020",
+            "credits": 3.0,
+            "title": "Intermediate Accounting II",
+            "type": "Course"
+          },
+          {
+            "code": "ACC 3250",
+            "credits": 3.0,
+            "title": "Advanced QuickBooks and Industry Accounting",
+            "type": "Course"
+          },
+          {
+            "code": "ACC 3300",
+            "credits": 3.0,
+            "title": "Cost Management",
+            "type": "Course"
+          },
+          {
+            "code": "ACC 3400",
+            "credits": 3.0,
+            "title": "Fundamentals of Taxation",
+            "type": "Course"
+          },
+          {
+            "code": "ACC 3510",
+            "credits": 3.0,
+            "title": "Accounting Information Systems",
+            "type": "Course"
+          },
+          {
+            "code": "ACC 3710",
+            "credits": 3.0,
+            "title": "Auditing",
+            "type": "Course"
+          },
+          {
+            "group": true,
+            "label": "Accounting Elective Requirements",
+            "type": "AllOf"
+          },
+          {
+            "credits": 12.0,
+            "label": "Complete four of the following advanced accounting courses: 4",
+            "of": [
+              {
+                "code": "ACC 4030",
+                "title": "Governmental and Not For Profit Accounting (3)",
+                "type": "Course"
+              },
+              {
+                "code": "ACC 4050",
+                "title": "Financial Statement Analysis (3)",
+                "type": "Course"
+              },
+              {
+                "code": "ACC 4250",
+                "title": "Advisory and Controllership Practices (3)",
+                "type": "Course"
+              },
+              {
+                "code": "ACC 4310",
+                "title": "Advanced Management Accounting (3)",
+                "type": "Course"
+              },
+              {
+                "code": "ACC 4510",
+                "title": "Artificial Intelligence and Data Analytics in Accounting (3)",
+                "type": "Course"
+              },
+              {
+                "code": "ACC 4700R",
+                "title": "Current Topics in Accounting (3)",
+                "type": "Course"
+              },
+              {
+                "code": "ACC 4810R",
+                "title": "Internship (3) (Subject to approval by department chair, limited to 3 credits)",
+                "type": "Course"
+              },
+              {
+                "code": "ACC 5020",
+                "title": "Advanced Financial Accounting (3)",
+                "type": "Course"
+              },
+              {
+                "code": "ACC 5400",
+                "title": "Advanced Principles of Taxation (3)",
+                "type": "Course"
+              },
+              {
+                "code": "ACC 5710",
+                "title": "Financial Auditing (3)",
+                "type": "Course"
+              },
+              {
+                "group": true,
+                "label": "General Elective Requirements",
+                "type": "AllOf"
+              }
+            ],
+            "slot": "@COMPLETE_FOUR_OF_THE_FOLLOWING_ADVANCED_ACCOUNTING_COURSES_4",
+            "type": "Slot"
+          },
+          {
+            "credits": 10.0,
+            "label": "Complete 10 credits of any courses 1000-level or higher",
+            "n": 10,
+            "type": "CreditsFrom"
+          }
+        ],
+        "type": "AllOf"
+      }
+    ],
+    "type": "AllOf"
+  },
+  "schema_version": 1,
+  "source": "catalog_requirements_table",
+  "title": "Accounting, B.S.",
+  "totalCredits": 120.0
+}

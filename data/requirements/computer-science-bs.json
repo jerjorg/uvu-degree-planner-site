@@ -1,0 +1,737 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_requirements",
+    "adapter_version": "1.0.0"
+  },
+  "programId": "computer-science-bs",
+  "requirements": {
+    "of": [
+      {
+        "credits": 31.0,
+        "label": "General Education Requirements",
+        "of": [
+          {
+            "of": [
+              {
+                "code": "ENGL 1010",
+                "credits": 3.0,
+                "title": "Introduction to Academic Writing",
+                "type": "Course"
+              },
+              {
+                "code": "ENGL 1005",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "ENGL 2010",
+            "credits": 3.0,
+            "title": "Intermediate Academic Writing",
+            "type": "Course"
+          },
+          {
+            "code": "MATH 1210",
+            "credits": 4.0,
+            "title": "Calculus I 1",
+            "type": "Course"
+          },
+          {
+            "credits": 3.0,
+            "label": "American Institutions",
+            "of": [
+              {
+                "code": "HIST 1700",
+                "title": "American History (3)",
+                "type": "Course"
+              },
+              {
+                "code": "HIST 1740",
+                "title": "US Economic History (3)",
+                "type": "Course"
+              },
+              {
+                "combined": true,
+                "label": "US History to 1877 and US History since 1877 (6)",
+                "of": [
+                  {
+                    "code": "HIST 2700",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "HIST 2710",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "code": "POLS 1000",
+                "title": "American Heritage (3)",
+                "type": "Course"
+              },
+              {
+                "code": "POLS 1100",
+                "title": "American National Government (3)",
+                "type": "Course"
+              }
+            ],
+            "slot": "@AMERICAN_INSTITUTIONS",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Arts",
+            "slot": "@ARTS",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Humanities",
+            "slot": "@HUMANITIES",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Life Sciences",
+            "slot": "@LIFE_SCIENCES",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Physical Sciences",
+            "slot": "@PHYSICAL_SCIENCES",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Social & Behavioral Sciences",
+            "slot": "@SOCIAL_BEHAVIORAL_SCIENCES",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Personal, Professional, and Civic Growth",
+            "slot": "@PERSONAL_PROFESSIONAL_AND_CIVIC_GROWTH",
+            "type": "Slot"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 56.0,
+        "label": "Discipline Core Requirements",
+        "of": [
+          {
+            "credits": 5.0,
+            "label": "Complete one of the following course/lab combinations:",
+            "of": [
+              {
+                "combined": true,
+                "label": "College Biology I and College Biology I Laboratory (5)",
+                "of": [
+                  {
+                    "code": "BIOL 1610",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "BIOL 1615",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "combined": true,
+                "label": "Principles of Chemistry I and Principles of Chemistry I Laboratory (5)",
+                "of": [
+                  {
+                    "code": "CHEM 1210",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CHEM 1215",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "combined": true,
+                "label": "College Physics II and College Physics II Lab (5)",
+                "of": [
+                  {
+                    "code": "PHYS 2020",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "PHYS 2025",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "combined": true,
+                "label": "College Physics I and College Physics I Lab (5)",
+                "of": [
+                  {
+                    "code": "PHYS 2010",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "PHYS 2015",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "combined": true,
+                "label": "Physics for Scientists and Engineers I and Physics for Scientists and Engineers I Lab (5)",
+                "of": [
+                  {
+                    "code": "PHYS 2210",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "PHYS 2215",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "combined": true,
+                "label": "Physics for Scientists and Engineers II and Physics for Scientists and Engineers II Lab (5)",
+                "of": [
+                  {
+                    "code": "PHYS 2220",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "PHYS 2225",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "combined": true,
+                "label": "Introduction to Geology and Introduction to Geology Laboratory and Science Excursion (5)",
+                "of": [
+                  {
+                    "code": "GEO 1010",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "GEO 1015",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "GEO 2020R",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "credits": 6.0,
+            "label": "Complete one of the following:",
+            "minGrade": "C-",
+            "of": [
+              {
+                "combined": true,
+                "label": "Fundamentals of Programming and Object Oriented Programming (6)",
+                "of": [
+                  {
+                    "code": "CS 1400",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 1410",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "code": "CS 1420",
+                "minGrade": "C-",
+                "title": "Accelerated Introduction to Programming (undefined) (and an additional 3 credit CS elective not already completed) 2",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "CS 2300",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Discrete Mathematical Structures I",
+            "type": "Course"
+          },
+          {
+            "code": "CS 2370",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "C Plus Plus Programming",
+            "type": "Course"
+          },
+          {
+            "code": "CS 2420",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Introduction to Algorithms and Data Structures",
+            "type": "Course"
+          },
+          {
+            "code": "CS 2450",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Software Engineering",
+            "type": "Course"
+          },
+          {
+            "code": "CS 2550",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Web Programming I",
+            "type": "Course"
+          },
+          {
+            "code": "CS 2600",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Computer Networks I",
+            "type": "Course"
+          },
+          {
+            "code": "CS 2810",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Computer Organization and Architecture",
+            "type": "Course"
+          },
+          {
+            "code": "CS 2900",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Data Privacy and Security",
+            "type": "Course"
+          },
+          {
+            "code": "CS 3050G",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Global Social and Ethical Issues in Computing",
+            "type": "Course"
+          },
+          {
+            "code": "CS 3060",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Operating Systems Theory",
+            "type": "Course"
+          },
+          {
+            "code": "CS 3240",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Discrete Mathematical Structures II",
+            "type": "Course"
+          },
+          {
+            "of": [
+              {
+                "code": "CS 3250",
+                "credits": 3.0,
+                "minGrade": "C-",
+                "title": "Java Software Development",
+                "type": "Course"
+              },
+              {
+                "code": "CS 3260",
+                "type": "Course"
+              },
+              {
+                "code": "CS 3270",
+                "type": "Course"
+              },
+              {
+                "code": "CS 3370",
+                "type": "Course"
+              },
+              {
+                "code": "CS 3390R",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "CS 3310",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Analysis of Algorithms",
+            "type": "Course"
+          },
+          {
+            "code": "CS 3520",
+            "credits": 3.0,
+            "minGrade": "C-",
+            "title": "Database Theory",
+            "type": "Course"
+          },
+          {
+            "of": [
+              {
+                "code": "ECE 3710",
+                "credits": 3.0,
+                "minGrade": "C-",
+                "title": "Applied Probability and Statistics for Engineers and Scientists",
+                "type": "Course"
+              },
+              {
+                "code": "STAT 2050",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 33.0,
+        "label": "Recommended Tracks",
+        "of": [
+          {
+            "credits": 33.0,
+            "label": "Complete 33 credits from the following recommended tracks. Minimum grade of C- required in track courses.",
+            "n": 33,
+            "of": [
+              {
+                "group": true,
+                "label": "CS Track",
+                "of": [
+                  {
+                    "code": "CS 3450",
+                    "title": "Principles and Patterns of Software Design (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 4380",
+                    "title": "Advanced High Performance Computer Architecture (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 4450",
+                    "title": "Analysis of Programming Languages (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 4470",
+                    "title": "Artificial Intelligence (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "label": "Complete 18 credits from CS 2700, ECE 4850, any CS 3000 or 4000 level course not already required. (Minimum grade of C- required in these courses.)",
+                    "n": 18,
+                    "type": "CreditsFrom"
+                  },
+                  {
+                    "excludeRepeatable": true,
+                    "label": "Complete 3 credits of Senior Elective Requirements; R courses are not approved for this credit.",
+                    "n": 3,
+                    "type": "CreditsFrom"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "group": true,
+                "label": "Full Stack Web Development Track",
+                "of": [
+                  {
+                    "code": "CS 3380",
+                    "title": "JavaScript Software Development (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 3410",
+                    "title": "Human Factors in Software Development (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 3530",
+                    "title": "Data Management For Data Sciences (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 3660",
+                    "title": "Web Programming II (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 3680",
+                    "title": "Mobile Device Programming (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 4880",
+                    "title": "Cloud Computing (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 4900",
+                    "title": "Full Stack Web Senior Capstone (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "label": "Complete 12 credits from CS 2700, ECE 4850, or any CS 3000 or 4000 level course not already required.",
+                    "n": 12,
+                    "type": "CreditsFrom"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "group": true,
+                "label": "Secure Computing Track",
+                "of": [
+                  {
+                    "code": "IT 1510",
+                    "title": "Introduction to System Administration--Linux/UNIX (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "IT 3510",
+                    "title": "Advanced System Administration--Linux/UNIX (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 3110",
+                    "title": "Applied Cryptography (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 3120",
+                    "title": "Ethical Hacking Tools Development (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "of": [
+                      {
+                        "code": "CS 3140",
+                        "title": "Network and Cloud Security (3)",
+                        "type": "Course"
+                      },
+                      {
+                        "code": "CYBR 4350",
+                        "type": "Course"
+                      }
+                    ],
+                    "type": "OneOf"
+                  },
+                  {
+                    "of": [
+                      {
+                        "code": "CS 4120",
+                        "title": "Security Vulnerability Analysis (3)",
+                        "type": "Course"
+                      },
+                      {
+                        "code": "CYBR 3750",
+                        "type": "Course"
+                      }
+                    ],
+                    "type": "OneOf"
+                  },
+                  {
+                    "code": "CS 4200",
+                    "title": "Secure Computing Capstone (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "label": "Complete 12 credits from the following. Minimum grade of C- required in these courses.",
+                    "n": 12,
+                    "type": "CreditsFrom"
+                  },
+                  {
+                    "code": "CYBR 4250",
+                    "title": "Database Security and Auditing (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CYBR 4450",
+                    "title": "Internet of Things Security (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CYBR 4550",
+                    "title": "Threat Hunting and Incident Response (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CYBR 4650",
+                    "title": "Industrial Control Systems Security (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CYBR 4850",
+                    "title": "Digital Forensics Investigations (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CYBR 4800",
+                    "title": "Advanced Mobile Devices Forensics (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "excludeAlreadyRequired": true,
+                    "label": "Any CS 3000 0r 4000 level course not already required",
+                    "levels": [
+                      3000,
+                      4000
+                    ],
+                    "minLevel": 3000,
+                    "subject": "CS",
+                    "type": "Pool"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "group": true,
+                "label": "Artificial Intelligence Track",
+                "of": [
+                  {
+                    "code": "MATH 2270",
+                    "title": "Linear Algebra (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 4470",
+                    "title": "Artificial Intelligence (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "CS 4700",
+                    "title": "Machine Learning (3)",
+                    "type": "Course"
+                  },
+                  {
+                    "of": [
+                      {
+                        "code": "CS 4710",
+                        "title": "Deep Learning (3)",
+                        "type": "Course"
+                      },
+                      {
+                        "code": "CS 4730",
+                        "type": "Course"
+                      },
+                      {
+                        "code": "CS 4480",
+                        "type": "Course"
+                      }
+                    ],
+                    "type": "OneOf"
+                  },
+                  {
+                    "code": "CS 4720R",
+                    "title": "AI Business and Tech Solutions (undefined)",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              }
+            ],
+            "type": "CreditsFrom"
+          },
+          {
+            "label": "Complete 9 hours from the following:",
+            "n": 9,
+            "of": [
+              {
+                "code": "CS 2700",
+                "title": "Causal Inference (3)",
+                "type": "Course"
+              },
+              {
+                "code": "CS 3530",
+                "title": "Data Management For Data Sciences (3)",
+                "type": "Course"
+              },
+              {
+                "code": "CS 3540",
+                "title": "Game Programming (3)",
+                "type": "Course"
+              },
+              {
+                "code": "CS 3800",
+                "title": "Data Science Through Statistical Reasoning (3)",
+                "type": "Course"
+              },
+              {
+                "code": "CS 3820",
+                "title": "Visualization Analytics for Data Science (3)",
+                "type": "Course"
+              },
+              {
+                "code": "CS 4770",
+                "title": "Software Development for Robotics (3)",
+                "type": "Course"
+              }
+            ],
+            "type": "CreditsFrom"
+          },
+          {
+            "label": "Complete 9 hours from the following:",
+            "n": 9,
+            "of": [
+              {
+                "code": "MATH 1220",
+                "title": "Calculus II (4)",
+                "type": "Course"
+              },
+              {
+                "code": "MATH 2210",
+                "title": "Calculus III (4)",
+                "type": "Course"
+              },
+              {
+                "code": "MATH 3640",
+                "title": "Introduction to Optimization (3)",
+                "type": "Course"
+              },
+              {
+                "excludeAlreadyRequired": true,
+                "label": "Any CS 3000+ course not already required.",
+                "levels": [
+                  3000
+                ],
+                "minLevel": 3000,
+                "subject": "CS",
+                "type": "Pool"
+              }
+            ],
+            "type": "CreditsFrom"
+          }
+        ],
+        "type": "AllOf"
+      }
+    ],
+    "type": "AllOf"
+  },
+  "schema_version": 1,
+  "source": "catalog_requirements_table",
+  "title": "Computer Science, B.S.",
+  "totalCredits": 120.0
+}

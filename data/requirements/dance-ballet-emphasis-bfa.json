@@ -1,0 +1,444 @@
+{
+  "catalogYear": "2026-2027",
+  "generated": {
+    "adapter": "catalog_requirements",
+    "adapter_version": "1.0.0"
+  },
+  "programId": "dance-ballet-emphasis-bfa",
+  "requirements": {
+    "of": [
+      {
+        "credits": 62.0,
+        "label": "Dance Requirements",
+        "of": [
+          {
+            "credits": 62.0,
+            "label": "Complete the requirements",
+            "type": "AllOf"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 58.0,
+        "label": "Emphasis Requirements",
+        "of": [
+          {
+            "code": "DANC 2270R",
+            "credits": 6.0,
+            "title": "Ballet Technique and Theory II (two semesters in Level II or higher)",
+            "type": "Course"
+          },
+          {
+            "of": [
+              {
+                "code": "DANC 2210R",
+                "credits": 4.0,
+                "title": "Pointe II (1) (four semesters required in level II or higher)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 2220R",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "DANC 3270R",
+            "credits": 6.0,
+            "title": "Ballet Technique and Theory III (two semesters in Level III or higher)",
+            "type": "Course"
+          },
+          {
+            "of": [
+              {
+                "code": "DANC 3210R",
+                "credits": 2.0,
+                "title": "Pointe III (1) (two semesters required in level III or higher)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 3220R",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "DANC 4270R",
+            "credits": 6.0,
+            "title": "Ballet Technique and Theory IV (two semesters in Level IV)",
+            "type": "Course"
+          },
+          {
+            "credits": 2.0,
+            "label": "Complete one of the following (two semesters required):",
+            "of": [
+              {
+                "code": "DANC 4210R",
+                "title": "Pointe IV (1)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 4230R",
+                "title": "Specialized Techniques in Ballet (1)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 4220R",
+                "title": "Allegro Dance IV (1)",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "DANC 4240R",
+            "credits": 1.0,
+            "title": "Partnering (1)",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 4250R",
+            "credits": 6.0,
+            "title": "Repertory Ballet Ensemble (3) (two semesters required total)",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 3340",
+            "credits": 2.0,
+            "title": "Ballet Choreography",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 4260",
+            "credits": 3.0,
+            "title": "Ballet Pedagogy",
+            "type": "Course"
+          },
+          {
+            "group": true,
+            "label": "Emphasis Elective Requirements:",
+            "type": "AllOf"
+          },
+          {
+            "credits": 11.0,
+            "label": "Choose 11 credits from the following:",
+            "n": 11,
+            "of": [
+              {
+                "code": "DANC 1510R",
+                "title": "Intermediate Jazz Dance (1)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 1700R",
+                "title": "American Social Dance I (1)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 1710R",
+                "title": "International Ballroom Dance I (1)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 1720R",
+                "title": "Latin Ballroom Dance I (1)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 2260",
+                "title": "Performance Practices in Ballet (1)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 2650R",
+                "title": "Fundamentals of Movement (2)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 2670",
+                "title": "Introduction to Laban Studies (2)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 3290R",
+                "title": "Ballet Repertoire (2)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 2880",
+                "title": "Moving Mainstream Dance Trends in Popular Culture (undefined)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 3650R",
+                "title": "Somatic Practices (2)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 3670",
+                "title": "Movement Analysis (3)",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 4250R",
+                "title": "Repertory Ballet Ensemble (3)",
+                "type": "Course"
+              },
+              {
+                "code": "THEA 1033",
+                "title": "Acting I (3)",
+                "type": "Course"
+              },
+              {
+                "excludeAlreadyRequired": true,
+                "label": "Any DANC course not previously taken.",
+                "subject": "DANC",
+                "type": "Pool"
+              }
+            ],
+            "type": "CreditsFrom"
+          },
+          {
+            "credits": 9.0,
+            "label": "Complete 9 credits from any course(s) 1000 level or higher (Students must have 40 upper division credits hours to graduate.)",
+            "n": 9,
+            "type": "CreditsFrom"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 27.0,
+        "label": "General Education Requirements",
+        "of": [
+          {
+            "of": [
+              {
+                "code": "ENGL 1010",
+                "credits": 3.0,
+                "title": "Introduction to Academic Writing",
+                "type": "Course"
+              },
+              {
+                "code": "ENGL 1005",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "ENGL 2010",
+            "credits": 3.0,
+            "title": "Intermediate Academic Writing",
+            "type": "Course"
+          },
+          {
+            "credits": 3.0,
+            "label": "Choose one of the following:",
+            "of": [
+              {
+                "code": "MAT 1030",
+                "title": "Quantitative Reasoning (3)",
+                "type": "Course"
+              },
+              {
+                "code": "MAT 1035",
+                "title": "Quantitative Reasoning with Integrated Algebra (6)",
+                "type": "Course"
+              }
+            ],
+            "slot": "@CHOOSE_ONE_OF_THE_FOLLOWING",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Choose one of the following:",
+            "of": [
+              {
+                "combined": true,
+                "label": "US History to 1877 and US History since 1877 (6)",
+                "of": [
+                  {
+                    "code": "HIST 2700",
+                    "type": "Course"
+                  },
+                  {
+                    "code": "HIST 2710",
+                    "type": "Course"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              {
+                "code": "HIST 1700",
+                "title": "American History (3)",
+                "type": "Course"
+              },
+              {
+                "code": "POLS 1000",
+                "title": "American Heritage (3)",
+                "type": "Course"
+              },
+              {
+                "code": "POLS 1100",
+                "title": "American National Government (3)",
+                "type": "Course"
+              },
+              {
+                "code": "HIST 1740",
+                "title": "US Economic History (3)",
+                "type": "Course"
+              }
+            ],
+            "slot": "@CHOOSE_ONE_OF_THE_FOLLOWING",
+            "type": "Slot"
+          },
+          {
+            "label": "Complete the following:",
+            "of": [
+              {
+                "group": true,
+                "label": "Distribution Courses:",
+                "type": "AllOf"
+              }
+            ],
+            "type": "AllOf"
+          },
+          {
+            "credits": 3.0,
+            "label": "Biology",
+            "slot": "@BIOLOGY",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Physical Science",
+            "slot": "@PHYSICAL_SCIENCE",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Humanities",
+            "slot": "@HUMANITIES",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Social/Behavioral Science",
+            "slot": "@SOCIAL_BEHAVIORAL_SCIENCE",
+            "type": "Slot"
+          },
+          {
+            "credits": 3.0,
+            "label": "Personal, Professional, and Civic Growth",
+            "slot": "@PERSONAL_PROFESSIONAL_AND_CIVIC_GROWTH",
+            "type": "Slot"
+          }
+        ],
+        "type": "AllOf"
+      },
+      {
+        "credits": 35.0,
+        "label": "Discipline Core Requirements",
+        "of": [
+          {
+            "code": "DANC 2110",
+            "credits": 3.0,
+            "title": "Orientation to Dance",
+            "type": "Course"
+          },
+          {
+            "of": [
+              {
+                "code": "DANC 1270R",
+                "credits": 6.0,
+                "title": "Ballet Technique and Theory I (3) 1",
+                "type": "Course"
+              },
+              {
+                "code": "DANC 2270R",
+                "type": "Course"
+              }
+            ],
+            "type": "OneOf"
+          },
+          {
+            "code": "DANC 1430R",
+            "credits": 3.0,
+            "title": "Modern/Contemporary Dance Technique and Theory I/Semester I",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 1440R",
+            "credits": 3.0,
+            "title": "Modern/Contemporary Dance Technique and Theory I/Semester II",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 1610R",
+            "credits": 1.0,
+            "title": "Dance Conditioning",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 2330",
+            "credits": 1.0,
+            "title": "Improvisation",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 2340",
+            "credits": 2.0,
+            "title": "Composition",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 2630G",
+            "credits": 3.0,
+            "title": "Dance as a Cultural Practice I",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 3140",
+            "credits": 2.0,
+            "title": "Dance Production and Lighting",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 3630",
+            "credits": 3.0,
+            "title": "Dance as a Cultural Practice II",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 3680",
+            "credits": 4.0,
+            "title": "Dance Kinesiology",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 4350",
+            "credits": 2.0,
+            "title": "Senior Capstone I",
+            "type": "Course"
+          },
+          {
+            "code": "DANC 4360",
+            "credits": 2.0,
+            "title": "Senior Capstone II",
+            "type": "Course"
+          }
+        ],
+        "type": "AllOf"
+      }
+    ],
+    "type": "AllOf"
+  },
+  "schema_version": 1,
+  "source": "catalog_requirements_table",
+  "title": "Dance - Ballet Emphasis, B.F.A.",
+  "totalCredits": 120.0
+}
